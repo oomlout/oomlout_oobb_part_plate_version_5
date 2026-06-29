@@ -30,7 +30,7 @@ bip_39_full_space: sign category tunnel puppy mind alley gym disagree skate baco
 bip_39_full_underscore: sign_category_tunnel_puppy_mind_alley_gym_disagree_skate_bacon_bean_mention
 depth: 3
 directory: parts/oobb_part_plate_basic_1_width_8_height_3_depth
-generate_stl: false
+generate_stl: true
 height: 8
 id: oobb_part_plate_basic_1_width_8_height_3_depth
 id_no_class: oobb_part_plate_basic_1_width_8_height_3_depth
@@ -41,7 +41,7 @@ item_specific: basic
 kwargs:
   depth: 3
   filter: ''
-  generate_stl: false
+  generate_stl: true
   height: 8
   modes:
   - 3dpr
@@ -50,12 +50,13 @@ kwargs:
   oomp_description_extra: 3_depth
   oomp_description_main: basic_1_width_8_height
   oomp_mode: project
-  oomp_run: false
+  oomp_run: true
   overwrite: true
   run_action: false
   run_oomp: true
   run_oomp_populate: true
   run_scad: true
+  typ: all
   type: default_basic
   width: 1
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_basic_1_width_8_height_3_depth
@@ -273,175 +274,6 @@ oomlout_ai_roboclick_1:
   - command: close_tab
   file_test: initial_generated_icon.png
 oomlout_ai_roboclick_2:
-  actions:
-  - command: new_chat
-    description: step_2_create_image_chibi
-  - command: ai_query
-    delay: '120'
-    mode_ai_wait: slow
-    text: 'This is a context-loading and exploration step for a fun chibi CGI-inspired
-      illustration. Take your time and think expansively before answering. Explore
-      multiple character directions, toy-like proportions, expressive poses, surface
-      treatments, prop ideas, and composition approaches, then explain what will make
-      the final image cutest, clearest, and most polished. The goal here is to develop
-      a premium, lovable, highly readable image direction before the final render
-      is generated.
-
-
-      Creative direction:
-
-      - Invent one central chibi character concept based on the theme, but push beyond
-      generic stock mascot art. The character should feel specific, playful, and emotionally
-      appealing.
-
-      - Favor oversized head proportions, small expressive limbs, simple hands, bright
-      eyes, a sweet face, and an instantly readable silhouette.
-
-      - Aim for a polished CGI or high-end 3D illustration feel: smooth forms, soft
-      rounded edges, tactile materials, subtle reflections, and the charm of a carefully
-      art-directed animated collectible.
-
-      - Supporting props are encouraged when they help the image read faster or add
-      a small story beat, but avoid clutter.
-
-      - Look for ways to make the character feel huggable, friendly, and slightly
-      mischievous in a warm, fun way.
-
-      - Keep the styling cohesive so the face, body, props, clothing, markings, and
-      materials all feel like one intentional design system.
-
-      - Search for the version that feels cutest after simplification rather than
-      the one with the most detail.
-
-      - Favor a centered hero composition that reads well immediately.
-
-
-      Image constraints:
-
-      - Full-color image is allowed and encouraged.
-
-      - Prefer a simple, clean background or soft studio-style setting that keeps
-      the character as the clear focus.
-
-      - Avoid busy scenery, tiny unreadable details, muddy textures, harsh shadows,
-      or photoreal grit.
-
-      - Keep the composition readable at thumbnail size with clear separation between
-      major forms.
-
-      - Favor soft lighting, clean specular highlights, and material contrast that
-      helps the image feel premium without becoming noisy.
-
-      - Avoid creepy facial proportions, aggressive expressions, or overly realistic
-      anatomy.
-
-      - No text unless it is absolutely essential to the design concept.
-
-
-      What to include in your response:
-
-      - Several candidate chibi directions for the theme, with notes on why each could
-      work.
-
-      - Observations about silhouette clarity, proportions, pose readability, color/material
-      opportunities, and overall cuteness.
-
-      - Notes on what details should be simplified, enlarged, grouped, or removed
-      to keep the result strong.
-
-      - Suggestions for props, accessories, clothing cues, or supporting motifs only
-      where they genuinely improve the idea.
-
-      - Observations about what makes the image feel like a polished CGI render rather
-      than a flat illustration.
-
-      - A recommended direction, with an explanation of why it is strongest.
-
-      - One strong final image-generation prompt at the end, ready for later use.
-
-
-      Response style:
-
-      - Explain your reasoning clearly and include all useful detail.
-
-      - Use structure, comparisons, and short sections when that helps clarity.
-
-      - The final prompt should explicitly call for a fun chibi CGI-inspired image
-      with a polished, premium result.
-
-
-      Take this context and research and search and make extra decisions based on
-      your findings tell me all about them!'
-  - command: ai_query
-    delay: '120'
-    mode_ai_wait: slow
-    text: 'Now use the exploration work to develop the direction for this theme: a
-      fun chibi CGI inspired picture of oobb part plate basic 1 width 8 height 3 depth
-      make Oobb Part Plate Basic 1 Width 8 Height 3 Depth cute
-
-
-      Take your time and search outward before narrowing down. Explore multiple character
-      interpretations, facial expressions, prop choices, costumes or markings, color
-      families, pose options, and CGI material treatments. Compare what becomes more
-      memorable, cuter, clearer, and more emotionally engaging as the idea develops.
-      Make the character feel more specific and lovable than the theme name alone.
-
-
-      What to do:
-
-      - Explore a healthy range of possible chibi directions, not just the first obvious
-      one.
-
-      - Search for character ideas that feel unique to the theme rather than generic
-      cute branding.
-
-      - Compare different head-to-body ratios, pose choices, facial expressions, and
-      gesture ideas.
-
-      - Compare different prop and accessory choices that reinforce the theme without
-      clutter.
-
-      - Discuss what helps or hurts the silhouette at small size.
-
-      - Surface tradeoffs between charm, clarity, detail, polish, and simplicity.
-
-      - Favor rounded forms, clean separation of shapes, and a pose that feels alive.
-
-      - Favor material ideas that support a premium CGI feel: glossy plastic, satin
-      fabric, rubber accents, soft translucent elements, brushed metal highlights,
-      or similar carefully chosen surfaces where appropriate.
-
-      - Keep the mood joyful, warm, playful, and inviting.
-
-      - Recommend the strongest direction only after the exploration feels well developed.
-
-      - End with one polished final image-generation prompt paragraph for the recommended
-      direction.
-
-
-      Response style:
-
-      - Explain everything that seems useful for the next step.
-
-      - It is good to be expansive here; do not compress the thinking prematurely.
-
-      - Structured notes, comparisons, bullets, and short sections are welcome if
-      they help clarity.
-
-      - The final prompt should explicitly call for a clean, polished CGI-style chibi
-      render with the theme centered clearly.
-
-      '
-  - command: ai_query
-    delay: '120'
-    mode_ai_wait: slow
-    text: Generate the image take all the time you need
-  - command: save_image_generated
-    file_name: initial_generated_chibi.png
-    mode_ai_wait: slow
-  - command: close_tab
-  file_test: initial_generated_chibi.png
-oomlout_ai_roboclick_3:
   actions:
   - command: text_jinja_template
     convert_to_pdf: false
@@ -661,179 +493,6 @@ oomlout_ai_roboclick_3:
           mode_ai_wait: slow
         - command: close_tab
         file_test: initial_generated_icon.png
-      oomlout_ai_roboclick_2:
-        actions:
-        - command: new_chat
-          description: step_2_create_image_chibi
-        - command: ai_query
-          delay: '120'
-          mode_ai_wait: slow
-          text: 'This is a context-loading and exploration step for a fun chibi CGI-inspired
-            illustration. Take your time and think expansively before answering. Explore
-            multiple character directions, toy-like proportions, expressive poses,
-            surface treatments, prop ideas, and composition approaches, then explain
-            what will make the final image cutest, clearest, and most polished. The
-            goal here is to develop a premium, lovable, highly readable image direction
-            before the final render is generated.
-
-
-            Creative direction:
-
-            - Invent one central chibi character concept based on the theme, but push
-            beyond generic stock mascot art. The character should feel specific, playful,
-            and emotionally appealing.
-
-            - Favor oversized head proportions, small expressive limbs, simple hands,
-            bright eyes, a sweet face, and an instantly readable silhouette.
-
-            - Aim for a polished CGI or high-end 3D illustration feel: smooth forms,
-            soft rounded edges, tactile materials, subtle reflections, and the charm
-            of a carefully art-directed animated collectible.
-
-            - Supporting props are encouraged when they help the image read faster
-            or add a small story beat, but avoid clutter.
-
-            - Look for ways to make the character feel huggable, friendly, and slightly
-            mischievous in a warm, fun way.
-
-            - Keep the styling cohesive so the face, body, props, clothing, markings,
-            and materials all feel like one intentional design system.
-
-            - Search for the version that feels cutest after simplification rather
-            than the one with the most detail.
-
-            - Favor a centered hero composition that reads well immediately.
-
-
-            Image constraints:
-
-            - Full-color image is allowed and encouraged.
-
-            - Prefer a simple, clean background or soft studio-style setting that
-            keeps the character as the clear focus.
-
-            - Avoid busy scenery, tiny unreadable details, muddy textures, harsh shadows,
-            or photoreal grit.
-
-            - Keep the composition readable at thumbnail size with clear separation
-            between major forms.
-
-            - Favor soft lighting, clean specular highlights, and material contrast
-            that helps the image feel premium without becoming noisy.
-
-            - Avoid creepy facial proportions, aggressive expressions, or overly realistic
-            anatomy.
-
-            - No text unless it is absolutely essential to the design concept.
-
-
-            What to include in your response:
-
-            - Several candidate chibi directions for the theme, with notes on why
-            each could work.
-
-            - Observations about silhouette clarity, proportions, pose readability,
-            color/material opportunities, and overall cuteness.
-
-            - Notes on what details should be simplified, enlarged, grouped, or removed
-            to keep the result strong.
-
-            - Suggestions for props, accessories, clothing cues, or supporting motifs
-            only where they genuinely improve the idea.
-
-            - Observations about what makes the image feel like a polished CGI render
-            rather than a flat illustration.
-
-            - A recommended direction, with an explanation of why it is strongest.
-
-            - One strong final image-generation prompt at the end, ready for later
-            use.
-
-
-            Response style:
-
-            - Explain your reasoning clearly and include all useful detail.
-
-            - Use structure, comparisons, and short sections when that helps clarity.
-
-            - The final prompt should explicitly call for a fun chibi CGI-inspired
-            image with a polished, premium result.
-
-
-            Take this context and research and search and make extra decisions based
-            on your findings tell me all about them!'
-        - command: ai_query
-          delay: '120'
-          mode_ai_wait: slow
-          text: 'Now use the exploration work to develop the direction for this theme:
-            a fun chibi CGI inspired picture of oobb part plate basic 1 width 8 height
-            3 depth make Oobb Part Plate Basic 1 Width 8 Height 3 Depth cute
-
-
-            Take your time and search outward before narrowing down. Explore multiple
-            character interpretations, facial expressions, prop choices, costumes
-            or markings, color families, pose options, and CGI material treatments.
-            Compare what becomes more memorable, cuter, clearer, and more emotionally
-            engaging as the idea develops. Make the character feel more specific and
-            lovable than the theme name alone.
-
-
-            What to do:
-
-            - Explore a healthy range of possible chibi directions, not just the first
-            obvious one.
-
-            - Search for character ideas that feel unique to the theme rather than
-            generic cute branding.
-
-            - Compare different head-to-body ratios, pose choices, facial expressions,
-            and gesture ideas.
-
-            - Compare different prop and accessory choices that reinforce the theme
-            without clutter.
-
-            - Discuss what helps or hurts the silhouette at small size.
-
-            - Surface tradeoffs between charm, clarity, detail, polish, and simplicity.
-
-            - Favor rounded forms, clean separation of shapes, and a pose that feels
-            alive.
-
-            - Favor material ideas that support a premium CGI feel: glossy plastic,
-            satin fabric, rubber accents, soft translucent elements, brushed metal
-            highlights, or similar carefully chosen surfaces where appropriate.
-
-            - Keep the mood joyful, warm, playful, and inviting.
-
-            - Recommend the strongest direction only after the exploration feels well
-            developed.
-
-            - End with one polished final image-generation prompt paragraph for the
-            recommended direction.
-
-
-            Response style:
-
-            - Explain everything that seems useful for the next step.
-
-            - It is good to be expansive here; do not compress the thinking prematurely.
-
-            - Structured notes, comparisons, bullets, and short sections are welcome
-            if they help clarity.
-
-            - The final prompt should explicitly call for a clean, polished CGI-style
-            chibi render with the theme centered clearly.
-
-            '
-        - command: ai_query
-          delay: '120'
-          mode_ai_wait: slow
-          text: Generate the image take all the time you need
-        - command: save_image_generated
-          file_name: initial_generated_chibi.png
-          mode_ai_wait: slow
-        - command: close_tab
-        file_test: initial_generated_chibi.png
       taxonomy_1: oobb
       taxonomy_10: ''
       taxonomy_11: ''
@@ -851,6 +510,8 @@ oomlout_ai_roboclick_3:
       taxonomy_9: ''
       url_chat: ''
       width: 1
+    dict_data_files: {}
+    dict_data_files_exists: {}
     file_output: label_oomp.svg
     file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
     search_and_replace: []
@@ -1576,14 +1237,14 @@ thing:
   components_objects:
   - depth: 3
     filter: ''
-    generate_stl: false
+    generate_stl: true
     height: 8
     modes:
     - 3dpr
     navigation: true
     oobb_name: basic
     oomp_mode: project
-    oomp_run: false
+    oomp_run: true
     overwrite: true
     pos:
     - 0
@@ -1593,14 +1254,15 @@ thing:
     run_oomp: true
     run_oomp_populate: true
     run_scad: true
-    save_type: none
+    save_type: all
     shape: oobb_plate
+    typ: all
     type: positive
     width: 1
   - both_holes: true
     depth: 3
     filter: ''
-    generate_stl: false
+    generate_stl: true
     height: 8
     holes: all
     modes:
@@ -1608,7 +1270,7 @@ thing:
     navigation: true
     oobb_name: basic
     oomp_mode: project
-    oomp_run: false
+    oomp_run: true
     overwrite: true
     pos:
     - 0
@@ -1618,19 +1280,20 @@ thing:
     run_oomp: true
     run_oomp_populate: true
     run_scad: true
-    save_type: none
+    save_type: all
     shape: oobb_holes
+    typ: all
     type: p
     width: 1
   components_string:
-  - oobb_plate_shape_positive_type_3_depth_true_run_oomp_populate_true_run_oomp_false_run_action_true_run_scad_false_generate_stl_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_8_height_basic_oobb_name_1_width
-  - oobb_holes_shape_p_type_3_depth_true_run_oomp_populate_true_run_oomp_false_run_action_true_run_scad_false_generate_stl_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_8_height_basic_oobb_name_1_width_true_both_holes_all_holes
+  - oobb_plate_shape_positive_type_3_depth_true_run_oomp_populate_true_run_oomp_false_run_action_true_run_scad_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_8_height_basic_oobb_name_1_width
+  - oobb_holes_shape_p_type_3_depth_true_run_oomp_populate_true_run_oomp_false_run_action_true_run_scad_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_8_height_basic_oobb_name_1_width_true_both_holes_all_holes
   depth: 3
   description: default basic 1x8x0
   description_extra: 3_depth
   description_main: 1_width_8_height
   directory: parts/oobb_part_plate_basic_1_width_8_height_3_depth
-  generate_stl: false
+  generate_stl: true
   height: 8
   height_mm: 119
   id: oobb_part_plate_basic_1_width_8_height_3_depth
@@ -1641,7 +1304,7 @@ thing:
   kwargs:
     depth: 3
     filter: ''
-    generate_stl: false
+    generate_stl: true
     height: 8
     modes:
     - 3dpr
@@ -1650,13 +1313,14 @@ thing:
     oomp_description_extra: 3_depth
     oomp_description_main: basic_1_width_8_height
     oomp_mode: project
-    oomp_run: false
+    oomp_run: true
     overwrite: true
     run_action: false
     run_oomp: true
     run_oomp_populate: true
     run_scad: true
-    save_type: none
+    save_type: all
+    typ: all
     type: default_basic
     width: 1
   link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_basic_1_width_8_height_3_depth
@@ -1882,177 +1546,6 @@ thing:
     file_test: initial_generated_icon.png
   oomlout_ai_roboclick_2:
     actions:
-    - command: new_chat
-      description: step_2_create_image_chibi
-    - command: ai_query
-      delay: '120'
-      mode_ai_wait: slow
-      text: 'This is a context-loading and exploration step for a fun chibi CGI-inspired
-        illustration. Take your time and think expansively before answering. Explore
-        multiple character directions, toy-like proportions, expressive poses, surface
-        treatments, prop ideas, and composition approaches, then explain what will
-        make the final image cutest, clearest, and most polished. The goal here is
-        to develop a premium, lovable, highly readable image direction before the
-        final render is generated.
-
-
-        Creative direction:
-
-        - Invent one central chibi character concept based on the theme, but push
-        beyond generic stock mascot art. The character should feel specific, playful,
-        and emotionally appealing.
-
-        - Favor oversized head proportions, small expressive limbs, simple hands,
-        bright eyes, a sweet face, and an instantly readable silhouette.
-
-        - Aim for a polished CGI or high-end 3D illustration feel: smooth forms, soft
-        rounded edges, tactile materials, subtle reflections, and the charm of a carefully
-        art-directed animated collectible.
-
-        - Supporting props are encouraged when they help the image read faster or
-        add a small story beat, but avoid clutter.
-
-        - Look for ways to make the character feel huggable, friendly, and slightly
-        mischievous in a warm, fun way.
-
-        - Keep the styling cohesive so the face, body, props, clothing, markings,
-        and materials all feel like one intentional design system.
-
-        - Search for the version that feels cutest after simplification rather than
-        the one with the most detail.
-
-        - Favor a centered hero composition that reads well immediately.
-
-
-        Image constraints:
-
-        - Full-color image is allowed and encouraged.
-
-        - Prefer a simple, clean background or soft studio-style setting that keeps
-        the character as the clear focus.
-
-        - Avoid busy scenery, tiny unreadable details, muddy textures, harsh shadows,
-        or photoreal grit.
-
-        - Keep the composition readable at thumbnail size with clear separation between
-        major forms.
-
-        - Favor soft lighting, clean specular highlights, and material contrast that
-        helps the image feel premium without becoming noisy.
-
-        - Avoid creepy facial proportions, aggressive expressions, or overly realistic
-        anatomy.
-
-        - No text unless it is absolutely essential to the design concept.
-
-
-        What to include in your response:
-
-        - Several candidate chibi directions for the theme, with notes on why each
-        could work.
-
-        - Observations about silhouette clarity, proportions, pose readability, color/material
-        opportunities, and overall cuteness.
-
-        - Notes on what details should be simplified, enlarged, grouped, or removed
-        to keep the result strong.
-
-        - Suggestions for props, accessories, clothing cues, or supporting motifs
-        only where they genuinely improve the idea.
-
-        - Observations about what makes the image feel like a polished CGI render
-        rather than a flat illustration.
-
-        - A recommended direction, with an explanation of why it is strongest.
-
-        - One strong final image-generation prompt at the end, ready for later use.
-
-
-        Response style:
-
-        - Explain your reasoning clearly and include all useful detail.
-
-        - Use structure, comparisons, and short sections when that helps clarity.
-
-        - The final prompt should explicitly call for a fun chibi CGI-inspired image
-        with a polished, premium result.
-
-
-        Take this context and research and search and make extra decisions based on
-        your findings tell me all about them!'
-    - command: ai_query
-      delay: '120'
-      mode_ai_wait: slow
-      text: 'Now use the exploration work to develop the direction for this theme:
-        a fun chibi CGI inspired picture of oobb part plate basic 1 width 8 height
-        3 depth make Oobb Part Plate Basic 1 Width 8 Height 3 Depth cute
-
-
-        Take your time and search outward before narrowing down. Explore multiple
-        character interpretations, facial expressions, prop choices, costumes or markings,
-        color families, pose options, and CGI material treatments. Compare what becomes
-        more memorable, cuter, clearer, and more emotionally engaging as the idea
-        develops. Make the character feel more specific and lovable than the theme
-        name alone.
-
-
-        What to do:
-
-        - Explore a healthy range of possible chibi directions, not just the first
-        obvious one.
-
-        - Search for character ideas that feel unique to the theme rather than generic
-        cute branding.
-
-        - Compare different head-to-body ratios, pose choices, facial expressions,
-        and gesture ideas.
-
-        - Compare different prop and accessory choices that reinforce the theme without
-        clutter.
-
-        - Discuss what helps or hurts the silhouette at small size.
-
-        - Surface tradeoffs between charm, clarity, detail, polish, and simplicity.
-
-        - Favor rounded forms, clean separation of shapes, and a pose that feels alive.
-
-        - Favor material ideas that support a premium CGI feel: glossy plastic, satin
-        fabric, rubber accents, soft translucent elements, brushed metal highlights,
-        or similar carefully chosen surfaces where appropriate.
-
-        - Keep the mood joyful, warm, playful, and inviting.
-
-        - Recommend the strongest direction only after the exploration feels well
-        developed.
-
-        - End with one polished final image-generation prompt paragraph for the recommended
-        direction.
-
-
-        Response style:
-
-        - Explain everything that seems useful for the next step.
-
-        - It is good to be expansive here; do not compress the thinking prematurely.
-
-        - Structured notes, comparisons, bullets, and short sections are welcome if
-        they help clarity.
-
-        - The final prompt should explicitly call for a clean, polished CGI-style
-        chibi render with the theme centered clearly.
-
-        '
-    - command: ai_query
-      delay: '120'
-      mode_ai_wait: slow
-      text: Generate the image take all the time you need
-    - command: save_image_generated
-      file_name: initial_generated_chibi.png
-      mode_ai_wait: slow
-    - command: close_tab
-    file_test: initial_generated_chibi.png
-  oomlout_ai_roboclick_3:
-    actions:
     - command: text_jinja_template
       convert_to_pdf: false
       convert_to_png: false
@@ -2272,180 +1765,6 @@ thing:
             mode_ai_wait: slow
           - command: close_tab
           file_test: initial_generated_icon.png
-        oomlout_ai_roboclick_2:
-          actions:
-          - command: new_chat
-            description: step_2_create_image_chibi
-          - command: ai_query
-            delay: '120'
-            mode_ai_wait: slow
-            text: 'This is a context-loading and exploration step for a fun chibi
-              CGI-inspired illustration. Take your time and think expansively before
-              answering. Explore multiple character directions, toy-like proportions,
-              expressive poses, surface treatments, prop ideas, and composition approaches,
-              then explain what will make the final image cutest, clearest, and most
-              polished. The goal here is to develop a premium, lovable, highly readable
-              image direction before the final render is generated.
-
-
-              Creative direction:
-
-              - Invent one central chibi character concept based on the theme, but
-              push beyond generic stock mascot art. The character should feel specific,
-              playful, and emotionally appealing.
-
-              - Favor oversized head proportions, small expressive limbs, simple hands,
-              bright eyes, a sweet face, and an instantly readable silhouette.
-
-              - Aim for a polished CGI or high-end 3D illustration feel: smooth forms,
-              soft rounded edges, tactile materials, subtle reflections, and the charm
-              of a carefully art-directed animated collectible.
-
-              - Supporting props are encouraged when they help the image read faster
-              or add a small story beat, but avoid clutter.
-
-              - Look for ways to make the character feel huggable, friendly, and slightly
-              mischievous in a warm, fun way.
-
-              - Keep the styling cohesive so the face, body, props, clothing, markings,
-              and materials all feel like one intentional design system.
-
-              - Search for the version that feels cutest after simplification rather
-              than the one with the most detail.
-
-              - Favor a centered hero composition that reads well immediately.
-
-
-              Image constraints:
-
-              - Full-color image is allowed and encouraged.
-
-              - Prefer a simple, clean background or soft studio-style setting that
-              keeps the character as the clear focus.
-
-              - Avoid busy scenery, tiny unreadable details, muddy textures, harsh
-              shadows, or photoreal grit.
-
-              - Keep the composition readable at thumbnail size with clear separation
-              between major forms.
-
-              - Favor soft lighting, clean specular highlights, and material contrast
-              that helps the image feel premium without becoming noisy.
-
-              - Avoid creepy facial proportions, aggressive expressions, or overly
-              realistic anatomy.
-
-              - No text unless it is absolutely essential to the design concept.
-
-
-              What to include in your response:
-
-              - Several candidate chibi directions for the theme, with notes on why
-              each could work.
-
-              - Observations about silhouette clarity, proportions, pose readability,
-              color/material opportunities, and overall cuteness.
-
-              - Notes on what details should be simplified, enlarged, grouped, or
-              removed to keep the result strong.
-
-              - Suggestions for props, accessories, clothing cues, or supporting motifs
-              only where they genuinely improve the idea.
-
-              - Observations about what makes the image feel like a polished CGI render
-              rather than a flat illustration.
-
-              - A recommended direction, with an explanation of why it is strongest.
-
-              - One strong final image-generation prompt at the end, ready for later
-              use.
-
-
-              Response style:
-
-              - Explain your reasoning clearly and include all useful detail.
-
-              - Use structure, comparisons, and short sections when that helps clarity.
-
-              - The final prompt should explicitly call for a fun chibi CGI-inspired
-              image with a polished, premium result.
-
-
-              Take this context and research and search and make extra decisions based
-              on your findings tell me all about them!'
-          - command: ai_query
-            delay: '120'
-            mode_ai_wait: slow
-            text: 'Now use the exploration work to develop the direction for this
-              theme: a fun chibi CGI inspired picture of oobb part plate basic 1 width
-              8 height 3 depth make Oobb Part Plate Basic 1 Width 8 Height 3 Depth
-              cute
-
-
-              Take your time and search outward before narrowing down. Explore multiple
-              character interpretations, facial expressions, prop choices, costumes
-              or markings, color families, pose options, and CGI material treatments.
-              Compare what becomes more memorable, cuter, clearer, and more emotionally
-              engaging as the idea develops. Make the character feel more specific
-              and lovable than the theme name alone.
-
-
-              What to do:
-
-              - Explore a healthy range of possible chibi directions, not just the
-              first obvious one.
-
-              - Search for character ideas that feel unique to the theme rather than
-              generic cute branding.
-
-              - Compare different head-to-body ratios, pose choices, facial expressions,
-              and gesture ideas.
-
-              - Compare different prop and accessory choices that reinforce the theme
-              without clutter.
-
-              - Discuss what helps or hurts the silhouette at small size.
-
-              - Surface tradeoffs between charm, clarity, detail, polish, and simplicity.
-
-              - Favor rounded forms, clean separation of shapes, and a pose that feels
-              alive.
-
-              - Favor material ideas that support a premium CGI feel: glossy plastic,
-              satin fabric, rubber accents, soft translucent elements, brushed metal
-              highlights, or similar carefully chosen surfaces where appropriate.
-
-              - Keep the mood joyful, warm, playful, and inviting.
-
-              - Recommend the strongest direction only after the exploration feels
-              well developed.
-
-              - End with one polished final image-generation prompt paragraph for
-              the recommended direction.
-
-
-              Response style:
-
-              - Explain everything that seems useful for the next step.
-
-              - It is good to be expansive here; do not compress the thinking prematurely.
-
-              - Structured notes, comparisons, bullets, and short sections are welcome
-              if they help clarity.
-
-              - The final prompt should explicitly call for a clean, polished CGI-style
-              chibi render with the theme centered clearly.
-
-              '
-          - command: ai_query
-            delay: '120'
-            mode_ai_wait: slow
-            text: Generate the image take all the time you need
-          - command: save_image_generated
-            file_name: initial_generated_chibi.png
-            mode_ai_wait: slow
-          - command: close_tab
-          file_test: initial_generated_chibi.png
         taxonomy_1: oobb
         taxonomy_10: ''
         taxonomy_11: ''
@@ -2463,6 +1782,8 @@ thing:
         taxonomy_9: ''
         url_chat: ''
         width: 1
+      dict_data_files: {}
+      dict_data_files_exists: {}
       file_output: label_oomp.svg
       file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
       search_and_replace: []

@@ -168,7 +168,7 @@ def get_basic(thing, **kwargs):
 
     if prepare_print:
         scad_help.prepare_base_for_print(thing, pos, **kwargs)
-    
+
 if __name__ == '__main__':
     kwargs = {}
     main(**kwargs)

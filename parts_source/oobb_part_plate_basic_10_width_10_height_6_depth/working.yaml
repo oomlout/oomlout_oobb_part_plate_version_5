@@ -1,0 +1,24 @@
+depth: 6
+height: 10
+item_specific: basic
+oobb_details:
+  depth: 6
+  height: 10
+  oobb_name: basic
+  width: 10
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: plate
+taxonomy_4: basic
+taxonomy_5: 10_width
+taxonomy_6: 10_height
+taxonomy_7: 6_depth
+taxonomy_8: ''
+taxonomy_9: ''
+width: 10

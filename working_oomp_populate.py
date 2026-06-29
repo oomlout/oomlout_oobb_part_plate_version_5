@@ -1,82 +1,120 @@
-
 import copy
-import itertools
-
-from requests import options
 
 from oomp_populate_helper import build_oomp_id, write_extras
 
 
+def apply_taxonomy(option):
+    item_specific = option.get("item_specific", "")
+    width = option.get("width", "")
+    height = option.get("height", "")
+    depth = option.get("depth", "")
+
+    option["taxonomy_1"] = "oobb"
+    option["taxonomy_2"] = "part"
+    option["taxonomy_3"] = "plate"
+    option["taxonomy_4"] = item_specific
+    option["taxonomy_5"] = f"{width}_width"
+    option["taxonomy_6"] = f"{height}_height"
+    option["taxonomy_7"] = f"{depth}_depth"
+
+    option["oobb_details"] = {
+        "oobb_name": item_specific,
+        "width": width,
+        "height": height,
+        "depth": depth,
+    }
+
+
 def main(**kwargs):
     options = []
-    #plates 3 mm
-    if True:
-        option = {}
-        option["item_specific"] = "basic"
-        widths = [1, 2, 3, 4, 5,6, 7,8, 9,10]
-        heights = [1, 2, 3, 4, 5,6, 7,8, 9,10]        
-        depths = [3]
-        holes = ["all", "perimeter", "just_m6", "just_m3"]
-        for width, height, depth, hole in itertools.product(widths, heights, depths, holes):
-            option["width"] = width
-            option["height"] = height
-            option["depth"] = depth
-            #option["hole_style"] = hole
-            options.append(copy.deepcopy(option))        
-        
-    #load from working_manual.yaml
+    depths = [3,6]
+
+    #basic all sizes
+    for depth in depths:
+        options.extend([            
+            {"item_specific": "basic", "width": 2, "height": 2, "depth": depth},
+            {"item_specific": "basic", "width": 2, "height": 3, "depth": depth},
+            {"item_specific": "basic", "width": 2, "height": 4, "depth": depth},
+            {"item_specific": "basic", "width": 2, "height": 5, "depth": depth},
+            {"item_specific": "basic", "width": 2, "height": 6, "depth": depth},
+            {"item_specific": "basic", "width": 2, "height": 7, "depth": depth},
+            {"item_specific": "basic", "width": 2, "height": 8, "depth": depth},
+            {"item_specific": "basic", "width": 2, "height": 9, "depth": depth},
+            {"item_specific": "basic", "width": 2, "height": 10, "depth": depth},
+            {"item_specific": "basic", "width": 3, "height": 3, "depth": depth},
+            {"item_specific": "basic", "width": 3, "height": 4, "depth": depth},
+            {"item_specific": "basic", "width": 3, "height": 5, "depth": depth},
+            {"item_specific": "basic", "width": 3, "height": 6, "depth": depth},
+            {"item_specific": "basic", "width": 3, "height": 7, "depth": depth},
+            {"item_specific": "basic", "width": 3, "height": 8, "depth": depth},
+            {"item_specific": "basic", "width": 3, "height": 9, "depth": depth},
+            {"item_specific": "basic", "width": 3, "height": 10, "depth": depth},
+            {"item_specific": "basic", "width": 4, "height": 4, "depth": depth},
+            {"item_specific": "basic", "width": 4, "height": 5, "depth": depth},
+            {"item_specific": "basic", "width": 4, "height": 6, "depth": depth},
+            {"item_specific": "basic", "width": 4, "height": 7, "depth": depth},
+            {"item_specific": "basic", "width": 4, "height": 8, "depth": depth},
+            {"item_specific": "basic", "width": 4, "height": 9, "depth": depth},
+            {"item_specific": "basic", "width": 4, "height": 10, "depth": depth},
+            {"item_specific": "basic", "width": 5, "height": 5, "depth": depth},
+            {"item_specific": "basic", "width": 5, "height": 6, "depth": depth},
+            {"item_specific": "basic", "width": 5, "height": 7, "depth": depth},
+            {"item_specific": "basic", "width": 5, "height": 8, "depth": depth},
+            {"item_specific": "basic", "width": 5, "height": 9, "depth": depth},
+            {"item_specific": "basic", "width": 5, "height": 10, "depth": depth},
+            {"item_specific": "basic", "width": 6, "height": 6, "depth": depth},
+            {"item_specific": "basic", "width": 6, "height": 7, "depth": depth},
+            {"item_specific": "basic", "width": 6, "height": 8, "depth": depth},
+            {"item_specific": "basic", "width": 6, "height": 9, "depth": depth},
+            {"item_specific": "basic", "width": 6, "height": 10, "depth": depth},
+            {"item_specific": "basic", "width": 7, "height": 7, "depth": depth},
+            {"item_specific": "basic", "width": 7, "height": 8, "depth": depth},
+            {"item_specific": "basic", "width": 7, "height": 9, "depth": depth},
+            {"item_specific": "basic", "width": 7, "height": 10, "depth": depth},
+            {"item_specific": "basic", "width": 8, "height": 8, "depth": depth},
+            {"item_specific": "basic", "width": 8, "height": 9, "depth": depth},
+            {"item_specific": "basic", "width": 8, "height": 10, "depth": depth},
+            {"item_specific": "basic", "width": 9, "height": 9, "depth": depth},
+            {"item_specific": "basic", "width": 9, "height": 10, "depth": depth},
+            {"item_specific": "basic", "width": 10, "height": 10, "depth": depth},
+        ])
+
+    #basic singles
+    depths = [3,6,9,12,15]
+    for depth in depths:
+        options.extend(
+            [
+            {"item_specific": "basic", "width": 1, "height": 1, "depth": depth},
+            {"item_specific": "basic", "width": 1, "height": 2, "depth": depth},
+            {"item_specific": "basic", "width": 1, "height": 3, "depth": depth},
+            {"item_specific": "basic", "width": 1, "height": 4, "depth": depth},
+            {"item_specific": "basic", "width": 1, "height": 5, "depth": depth},
+            {"item_specific": "basic", "width": 1, "height": 6, "depth": depth},
+            {"item_specific": "basic", "width": 1, "height": 7, "depth": depth},
+            {"item_specific": "basic", "width": 1, "height": 8, "depth": depth},
+            {"item_specific": "basic", "width": 1, "height": 9, "depth": depth},
+            {"item_specific": "basic", "width": 1, "height": 10, "depth": depth}
+        ]
+        )
+    # Optional manual entries can still be merged in when needed.
     if False:
-        with open("working_manual.yaml", 'r', encoding='utf-8') as file:
+        with open("working_manual.yaml", "r", encoding="utf-8") as file:
             import yaml
+
             data = yaml.safe_load(file)
-            options_yaml = data.get("options", [])
-            for option_yaml in options_yaml:
+            for option_yaml in data.get("options", []):
                 options.append(option_yaml)
 
-    
-    ###### populate taxonomy details and oobb details
-    if True:
-        for option in options:            
-            option["taxonomy_1"] = f"oobb"
-            option["taxonomy_2"] = f"part"
-            option["taxonomy_3"] = f"plate"
-            item_specific = option.get("item_specific", None)
-            option["taxonomy_4"] = f"{item_specific}"
-            width = option.get("width", None)
-            option["taxonomy_5"] = f"{width}_width"
-            height = option.get("height", None)
-            option["taxonomy_6"] = f"{height}_height"
-            depth = option.get("depth", None)
-            option["taxonomy_7"] = f"{depth}_depth"
-            #hole_style = option.get("hole_style", None)
-            #option["taxonomy_8"] = f"{hole_style}_holes"
-            if True:
-                oobb_details = {}
-                #taxonomy_4 hole_cover
-                oobb_details["oobb_name"] = item_specific
-                oobb_details["width"] = option.get("width", None)
-                oobb_details["height"] = option.get("height", None)
-                oobb_details["depth"] = option.get("depth", None)
-                option["oobb_details"] = oobb_details
-    
-
-    #load the options into full list
-    extras = []
     for option in options:
-        extra = {}
-        extra.update(option)
-        extras.append(extra)
+        apply_taxonomy(option)
 
-    
-    ######### add notes from an id string
+    extras = [copy.deepcopy(option) for option in options]
+
     import working_oomp_populate_extra_detail
+
     working_oomp_populate_extra_detail.main(extras=extras)
-
-
     write_extras(extras)
 
 
-
-# Call main automatically
 if __name__ == "__main__":
     main()
