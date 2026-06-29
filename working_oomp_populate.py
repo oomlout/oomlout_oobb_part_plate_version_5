@@ -27,75 +27,19 @@ def apply_taxonomy(option):
 
 def main(**kwargs):
     options = []
-    depths = [3,6]
 
-    #basic all sizes
+    #basic all sizes: height >= width ensures no duplicate transpositions
+    depths = [3, 6]
     for depth in depths:
-        options.extend([            
-            {"item_specific": "basic", "width": 2, "height": 2, "depth": depth},
-            {"item_specific": "basic", "width": 2, "height": 3, "depth": depth},
-            {"item_specific": "basic", "width": 2, "height": 4, "depth": depth},
-            {"item_specific": "basic", "width": 2, "height": 5, "depth": depth},
-            {"item_specific": "basic", "width": 2, "height": 6, "depth": depth},
-            {"item_specific": "basic", "width": 2, "height": 7, "depth": depth},
-            {"item_specific": "basic", "width": 2, "height": 8, "depth": depth},
-            {"item_specific": "basic", "width": 2, "height": 9, "depth": depth},
-            {"item_specific": "basic", "width": 2, "height": 10, "depth": depth},
-            {"item_specific": "basic", "width": 3, "height": 3, "depth": depth},
-            {"item_specific": "basic", "width": 3, "height": 4, "depth": depth},
-            {"item_specific": "basic", "width": 3, "height": 5, "depth": depth},
-            {"item_specific": "basic", "width": 3, "height": 6, "depth": depth},
-            {"item_specific": "basic", "width": 3, "height": 7, "depth": depth},
-            {"item_specific": "basic", "width": 3, "height": 8, "depth": depth},
-            {"item_specific": "basic", "width": 3, "height": 9, "depth": depth},
-            {"item_specific": "basic", "width": 3, "height": 10, "depth": depth},
-            {"item_specific": "basic", "width": 4, "height": 4, "depth": depth},
-            {"item_specific": "basic", "width": 4, "height": 5, "depth": depth},
-            {"item_specific": "basic", "width": 4, "height": 6, "depth": depth},
-            {"item_specific": "basic", "width": 4, "height": 7, "depth": depth},
-            {"item_specific": "basic", "width": 4, "height": 8, "depth": depth},
-            {"item_specific": "basic", "width": 4, "height": 9, "depth": depth},
-            {"item_specific": "basic", "width": 4, "height": 10, "depth": depth},
-            {"item_specific": "basic", "width": 5, "height": 5, "depth": depth},
-            {"item_specific": "basic", "width": 5, "height": 6, "depth": depth},
-            {"item_specific": "basic", "width": 5, "height": 7, "depth": depth},
-            {"item_specific": "basic", "width": 5, "height": 8, "depth": depth},
-            {"item_specific": "basic", "width": 5, "height": 9, "depth": depth},
-            {"item_specific": "basic", "width": 5, "height": 10, "depth": depth},
-            {"item_specific": "basic", "width": 6, "height": 6, "depth": depth},
-            {"item_specific": "basic", "width": 6, "height": 7, "depth": depth},
-            {"item_specific": "basic", "width": 6, "height": 8, "depth": depth},
-            {"item_specific": "basic", "width": 6, "height": 9, "depth": depth},
-            {"item_specific": "basic", "width": 6, "height": 10, "depth": depth},
-            {"item_specific": "basic", "width": 7, "height": 7, "depth": depth},
-            {"item_specific": "basic", "width": 7, "height": 8, "depth": depth},
-            {"item_specific": "basic", "width": 7, "height": 9, "depth": depth},
-            {"item_specific": "basic", "width": 7, "height": 10, "depth": depth},
-            {"item_specific": "basic", "width": 8, "height": 8, "depth": depth},
-            {"item_specific": "basic", "width": 8, "height": 9, "depth": depth},
-            {"item_specific": "basic", "width": 8, "height": 10, "depth": depth},
-            {"item_specific": "basic", "width": 9, "height": 9, "depth": depth},
-            {"item_specific": "basic", "width": 9, "height": 10, "depth": depth},
-            {"item_specific": "basic", "width": 10, "height": 10, "depth": depth},
-        ])
+        for width in range(2, 11):
+            for height in range(width, 11):
+                options.append({"item_specific": "basic", "width": width, "height": height, "depth": depth})
 
-    #basic singles
-    depths = [3,6,9,12,15]
+    #basic singles (width=1): extra depths, height >= width always true
+    depths = [3, 6, 9, 12, 15]
     for depth in depths:
-        options.extend(
-            [
-            {"item_specific": "basic", "width": 1, "height": 1, "depth": depth},
-            {"item_specific": "basic", "width": 1, "height": 2, "depth": depth},
-            {"item_specific": "basic", "width": 1, "height": 3, "depth": depth},
-            {"item_specific": "basic", "width": 1, "height": 4, "depth": depth},
-            {"item_specific": "basic", "width": 1, "height": 5, "depth": depth},
-            {"item_specific": "basic", "width": 1, "height": 6, "depth": depth},
-            {"item_specific": "basic", "width": 1, "height": 7, "depth": depth},
-            {"item_specific": "basic", "width": 1, "height": 8, "depth": depth},
-            {"item_specific": "basic", "width": 1, "height": 9, "depth": depth},
-            {"item_specific": "basic", "width": 1, "height": 10, "depth": depth}
-        ]
-        )
+        for height in range(1, 11):
+            options.append({"item_specific": "basic", "width": 1, "height": height, "depth": depth})
     # Optional manual entries can still be merged in when needed.
     if False:
         with open("working_manual.yaml", "r", encoding="utf-8") as file:
