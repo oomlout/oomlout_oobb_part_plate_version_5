@@ -512,7 +512,7 @@ oomlout_ai_roboclick_2:
             taxonomy_7: 15_depth
             taxonomy_8: ''
             taxonomy_9: ''
-            url_chat: https://chatgpt.com/c/6a4384b6-c6d8-83eb-aa6b-bf4850514af7
+            url_chat: https://chatgpt.com/c/6a440d30-cde8-83eb-b8d6-d5a680438c43
             width: 1
         file_output: label_oomp.svg
         file_template: source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
@@ -636,5 +636,5 @@ taxonomy_7_upper_length_4: 15_D
 taxonomy_7_upper_length_5: 15_DE
 taxonomy_8: ''
 taxonomy_9: ''
-url_chat: https://chatgpt.com/c/6a4384b6-c6d8-83eb-aa6b-bf4850514af7
+url_chat: https://chatgpt.com/c/6a440d30-cde8-83eb-b8d6-d5a680438c43
 width: 1
