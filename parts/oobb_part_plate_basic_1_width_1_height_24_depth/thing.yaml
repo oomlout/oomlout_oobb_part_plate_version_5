@@ -1,0 +1,1213 @@
+bip_39_2_word_array:
+- kidney
+- settle
+bip_39_2_word_no_space: kidneysettle
+bip_39_2_word_space: kidney settle
+bip_39_2_word_underscore: kidney_settle
+bip_39_3_word_array:
+- kidney
+- settle
+- raven
+bip_39_3_word_no_space: kidneysettleraven
+bip_39_3_word_space: kidney settle raven
+bip_39_3_word_underscore: kidney_settle_raven
+bip_39_full_array:
+- kidney
+- settle
+- raven
+- shield
+- work
+- resemble
+- build
+- goddess
+- chair
+- tail
+- merge
+- assume
+bip_39_full_no_space: kidneysettleravenshieldworkresemblebuildgoddesschairtailmergeassume
+bip_39_full_space: kidney settle raven shield work resemble build goddess chair tail
+  merge assume
+bip_39_full_underscore: kidney_settle_raven_shield_work_resemble_build_goddess_chair_tail_merge_assume
+depth: 24
+directory: parts/oobb_part_plate_basic_1_width_1_height_24_depth
+generate_stl: true
+height: 1
+id: oobb_part_plate_basic_1_width_1_height_24_depth
+id_no_class: oobb_part_plate_basic_1_width_1_height_24_depth
+id_no_size: oobb_part_plate_basic_1_width_1_height_24_depth
+id_no_type: oobb_part_plate_basic_1_width_1_height_24_depth
+id_oobb: oobb_part_plate_basic_1_width_1_height_24_depth
+item_specific: basic
+kwargs:
+  depth: 24
+  filter: ''
+  generate_stl: true
+  height: 1
+  modes:
+  - 3dpr
+  navigation: true
+  oobb_name: basic
+  oomp_description_extra: 24_depth
+  oomp_description_main: basic_1_width_1_height
+  oomp_mode: project
+  oomp_run: true
+  overwrite: true
+  run_action: false
+  run_oomp: true
+  run_oomp_populate: true
+  run_scad: true
+  typ: all
+  type: default_basic
+  width: 1
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_basic_1_width_1_height_24_depth
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_basic_1_width_1_height_24_depth
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_basic_1_width_1_height_24_depth
+md5: 7a788ec9e2dfd96e87732125dbaa2d86
+md5_10: 7a788ec9e2
+md5_10_upper: 7A788EC9E2
+md5_5: 7a788
+md5_5_upper: 7A788
+md5_6: 7a788e
+md5_6_alpha: 4s13i
+md5_6_alpha_upper: 4S13I
+md5_6_upper: 7A788E
+name: Oobb Part Plate Basic 1 Width 1 Height 24 Depth
+name_no_class: Oobb Part Plate Basic 1 Width 1 Height 24 Depth
+name_no_size: Oobb Part Plate Basic 1 Width 1 Height 24 Depth
+name_no_type: Oobb Part Plate Basic 1 Width 1 Height 24 Depth
+name_proper: Oobb Part Plate Basic 1 Width 1 Height 24 Depth
+name_space: oobb part plate basic 1 width 1 height 24 depth
+name_upper: OOBB PART PLATE BASIC 1 WIDTH 1 HEIGHT 24 DEPTH
+oobb_details:
+  depth: 24
+  height: 1
+  oobb_name: basic
+  width: 1
+oobb_name: basic
+oomlout_ai_roboclick_1:
+  actions:
+  - command: new_chat
+    description: step_1_create_icon
+  - command: ai_query
+    delay: '240'
+    mode_ai_wait: slow
+    text: "## READ THIS FIRST \u2014 no theme is coming in this message, and that\
+      \ is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free. You\
+      \ are building a reusable house style, not designing a specific logo.\n\nThe\
+      \ theme arrives in step 2. Do **not** ask what the theme is. Do **not** ask\
+      \ any clarifying questions. Do **not** write a final image-generation prompt\
+      \ yet \u2014 you cannot, and attempting one is a failure of this step. Do **not**\
+      \ invent a placeholder theme and design for it. If you feel information is missing,\
+      \ that is expected: the missing information is the theme, it is coming next,\
+      \ and nothing in this step requires it.\n\nYour entire output for this step\
+      \ is a **house style guide** that will be applied to whatever theme arrives\
+      \ next.\n\n---\n\n## The product this style serves\n\n**Intended use:** a square,\
+      \ single-colour, pure-black-on-pure-white mascot logo, generated as a raster\
+      \ image, then **auto-traced to vector and cut/engraved on a laser cutter**.\
+      \ The trace step is unforgiving \u2014 it is the hardest constraint in this\
+      \ brief and should shape most of your recommendations.\n\n**Target feel:** charming,\
+      \ original, cute, polished, instantly readable at ~20 mm. A designed branded\
+      \ icon, not a doodle page and not generic kawaii clip art.\n\n---\n\n## What\
+      \ to produce\n\nWrite these six sections. **Budget: about 900 words total, 1,100\
+      \ hard ceiling.** That is roughly 100\u2013150 words per section, with section\
+      \ 6 allowed the most. This is a working reference, not an essay \u2014 every\
+      \ line should be a rule someone could check a drawing against. Prefer tight\
+      \ bullets over prose paragraphs, and cut any sentence that only restates the\
+      \ brief back at me.\n\n**1. Line language menu**\nExactly three distinct black-on-white\
+      \ line-art approaches (e.g. uniform monoline, weight-varied outline with sparse\
+      \ interior, chunky sticker-outline, geometric constructed line). One or two\
+      \ lines each: what it does for charm, how it survives auto-tracing, what it\
+      \ costs.\n\n**2. Cuteness that isn't generic**\nThe handful of levers that make\
+      \ a line mascot lovable \u2014 eye shape and spacing, head-to-body ratio, pose\
+      \ energy, mouth simplicity, restraint on blush marks \u2014 each as a one-line\
+      \ rule with a number where a number applies. Then a short do-not list of the\
+      \ clich\xE9s that make an AI mascot look stock (dead-centre symmetrical stare,\
+      \ sparkle confetti, floating hearts, blob bodies), each with its one-line replacement.\n\
+      \n**3. Trace-safety rules**\nA flat list of concrete, checkable rules for the\
+      \ auto-trace-to-cut pipeline \u2014 one line each, no explanatory paragraphs:\n\
+      - minimum stroke thickness relative to the square's width, stated as a fraction\
+      \ (so it scales)\n- minimum gap between two adjacent strokes before they blur\
+      \ into one traced blob\n- why every shape should read as a closed path, and\
+      \ how to spot one that won't\n- island/floating-part handling and where to add\
+      \ connective bridges\n- what to do about interior detail that a tracer will\
+      \ turn into noise (crosshatching, stippling, tapering hairlines, single stray\
+      \ dots)\n- why large solid black fills are avoided here, and the acceptable\
+      \ exceptions (small eyes, pupils, a tiny accent shape)\n\n**4. Composition and\
+      \ hierarchy**\nBulleted rules only: square framing, margin as a fraction of\
+      \ the square, centre of visual mass, minimum negative space, the mascot-leads\
+      \ / props-support / text-reinforces hierarchy, and the shared traits that make\
+      \ it read as one illustrator's hand (same stroke weight, same corner radius,\
+      \ same eye style, same spacing rhythm).\n\n**5. Text and badge treatments**\n\
+      Text is **optional**. Briefly: when a word helps versus clutters, a maximum\
+      \ letter count that stays cuttable, how to specify literal text so it renders\
+      \ verbatim (quotes, exact casing), the letterform to ask for, and when a badge\
+      \ ring earns its place versus just boxing the mark in. Six bullets is plenty.\n\
+      \n**6. Prompt architecture for step 2**\nThe most important section, so spend\
+      \ your words here. Specify the exact template the step-2 final prompt must follow\
+      \ \u2014 and state that the finished prompt should land at **180\u2013250 words**,\
+      \ long enough to carry the spec, short enough that no single instruction gets\
+      \ diluted. Order it to match how the image model weights a prompt:\n\n1. **Medium\
+      \ and style up front** \u2014 the first sentence states it is a square black-and-white\
+      \ line-art mascot logo, because opening words set the mode for everything after.\n\
+      2. **Subject** \u2014 the mascot, its identity, expression, pose.\n3. **Key\
+      \ details** \u2014 props, supporting motifs, any literal text in quotes.\n4.\
+      \ **Layout** \u2014 centring, margins, hierarchy, where each element sits.\n\
+      5. **Line and manufacturing spec** \u2014 stroke weight, closed paths, interior-detail\
+      \ limits.\n6. **Exclusions last** \u2014 negatives go at the very end, after\
+      \ every positive descriptor, because a model reading them early tends to treat\
+      \ them as things to compose rather than things to omit.\n\nGive the canonical\
+      \ exclusion list to close with (no grey, no shading, no gradients, no halftone,\
+      \ no dithering, no texture, no colour, no transparency, no background scene,\
+      \ no drop shadow, no outer glow, no frame border unless specified, no watermark,\
+      \ no signature, no extra text beyond what is quoted).\n\nAlso state the two\
+      \ facts the prompt must say in plain words no matter what: the image is **square**,\
+      \ and it is **pure black on a pure white background**.\n\n---\n\n## Response\
+      \ style and length\n\n**About 900 words, 1,100 absolute maximum.** Bullets over\
+      \ prose. Concrete and checkable over abstract and aspirational \u2014 \"stroke\
+      \ no thinner than 1/100 of the square's width\" beats \"confident lines\". No\
+      \ preamble, no restating this brief back at me, no summary of what you are about\
+      \ to do. Skip the caveats and the reasoning behind each rule; just state the\
+      \ rule.\n\nClose with a checklist of the rules, 12 lines at most, so step 2\
+      \ can be graded against it.\n\nThen stop. No final image prompt, no questions,\
+      \ no theme.\n"
+  - command: ai_query
+    delay: '240'
+    mode_ai_wait: slow
+    text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image of oobb part\
+      \ plate basic 1 width 1 height 24 depth make Oobb Part Plate Basic 1 Width 1\
+      \ Height 24 Depth cute**\n\nApply the house style you just wrote to this theme.\
+      \ Everything you need is now in hand \u2014 do not ask questions, just work.\n\
+      \n---\n\n## Part A \u2014 exploration\n\n**Budget: about 450 words, 600 hard\
+      \ ceiling.** Push past the theme's first obvious reading, but do it briskly.\
+      \ No preamble, no restating the theme back at me.\n\n- **Angles:** exactly four\
+      \ mascot interpretations, **one or two sentences each**. Include at least one\
+      \ that anthropomorphises an object or concept from the theme rather than reaching\
+      \ for the obvious animal, and at least one built on a visual pun. Then name\
+      \ your pick in a single sentence saying why it beats the other three \u2014\
+      \ no full comparison table.\n- **The chosen design:** one short paragraph fixing\
+      \ the pose, expression, props, and line strategy. Prefer gesture or a moment\
+      \ of character over a static front-on stare. Cut any prop that is decoration\
+      \ rather than signal.\n- **Text:** one line \u2014 the exact string in quotes\
+      \ with exact casing, or \"no text\". Text is optional and a clean wordless mark\
+      \ often wins.\n- **Trace and small-size check:** a short bullet list of fixes\
+      \ only \u2014 every stroke to thicken, gap to widen, island to bridge, detail\
+      \ to delete. Just the fixes, not the reasoning, and not a description of what\
+      \ the design looks like at size.\n\nSkip anything not on that list: no tradeoff\
+      \ essays, no runner-up post-mortems, no notes on your own process.\n\n## Part\
+      \ B \u2014 the final prompt\n\nEnd your response with the final image-generation\
+      \ prompt for the chosen direction, and nothing after it.\n\nFormat it as a single\
+      \ fenced code block labelled `FINAL IMAGE PROMPT`, so it can be copied cleanly.\
+      \ Follow the six-part architecture from step 1 exactly, in order: medium and\
+      \ style \u2192 subject \u2192 key details \u2192 layout \u2192 line and manufacturing\
+      \ spec \u2192 exclusions last.\n\n**Length: 180\u2013250 words.** Long enough\
+      \ to carry the full spec, short enough that no single instruction gets diluted.\
+      \ If you are over, cut adjectives and repeated style words before you cut any\
+      \ manufacturing rule.\n\nHard requirements for that prompt:\n\n- It opens by\
+      \ stating it is a **square black-and-white line-art mascot logo**.\n- It says\
+      \ in plain words that the image is **square** and **pure black on a pure white\
+      \ background**.\n- It states stroke weight as a fraction of the image width,\
+      \ and requires every shape to be a **closed path** with **no floating disconnected\
+      \ islands**.\n- It caps interior detail explicitly and forbids crosshatching,\
+      \ stippling, and hairline tapers.\n- Any literal text appears in quotes with\
+      \ exact casing, spelled out character by character if it is unusual.\n- The\
+      \ exclusion list comes **last**, after every positive descriptor.\n- It is self-contained:\
+      \ someone pasting it cold, with no memory of this conversation, gets the same\
+      \ image. No \"as discussed above\", no \"the mascot from earlier\".\n- One prompt\
+      \ only. No variants, no alternates, no commentary after the code block.\n"
+  - command: ai_query
+    delay: '300'
+    mode_ai_wait: slow
+    text: Generate the image take all the time you need
+  - command: save_image_generated
+    file_name: initial_generated_icon.png
+    mode_ai_wait: slow
+  - command: close_tab
+  file_test: initial_generated_icon.png
+  retries_until_complete: 0
+oomlout_ai_roboclick_2:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      depth: 24
+      directory: parts\oobb_part_plate_basic_1_width_1_height_24_depth
+      height: 1
+      item_specific: basic
+      name: oobb_part_plate_basic_1_width_1_height_24_depth
+      name_proper: Oobb Part Plate Basic 1 Width 1 Height 24 Depth
+      name_space: oobb part plate basic 1 width 1 height 24 depth
+      name_upper: OOBB PART PLATE BASIC 1 WIDTH 1 HEIGHT 24 DEPTH
+      oobb_details:
+        depth: 24
+        height: 1
+        oobb_name: basic
+        width: 1
+      oomlout_ai_roboclick_1:
+        actions:
+        - command: new_chat
+          description: step_1_create_icon
+        - command: ai_query
+          delay: '240'
+          mode_ai_wait: slow
+          text: "## READ THIS FIRST \u2014 no theme is coming in this message, and\
+            \ that is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free.\
+            \ You are building a reusable house style, not designing a specific logo.\n\
+            \nThe theme arrives in step 2. Do **not** ask what the theme is. Do **not**\
+            \ ask any clarifying questions. Do **not** write a final image-generation\
+            \ prompt yet \u2014 you cannot, and attempting one is a failure of this\
+            \ step. Do **not** invent a placeholder theme and design for it. If you\
+            \ feel information is missing, that is expected: the missing information\
+            \ is the theme, it is coming next, and nothing in this step requires it.\n\
+            \nYour entire output for this step is a **house style guide** that will\
+            \ be applied to whatever theme arrives next.\n\n---\n\n## The product\
+            \ this style serves\n\n**Intended use:** a square, single-colour, pure-black-on-pure-white\
+            \ mascot logo, generated as a raster image, then **auto-traced to vector\
+            \ and cut/engraved on a laser cutter**. The trace step is unforgiving\
+            \ \u2014 it is the hardest constraint in this brief and should shape most\
+            \ of your recommendations.\n\n**Target feel:** charming, original, cute,\
+            \ polished, instantly readable at ~20 mm. A designed branded icon, not\
+            \ a doodle page and not generic kawaii clip art.\n\n---\n\n## What to\
+            \ produce\n\nWrite these six sections. **Budget: about 900 words total,\
+            \ 1,100 hard ceiling.** That is roughly 100\u2013150 words per section,\
+            \ with section 6 allowed the most. This is a working reference, not an\
+            \ essay \u2014 every line should be a rule someone could check a drawing\
+            \ against. Prefer tight bullets over prose paragraphs, and cut any sentence\
+            \ that only restates the brief back at me.\n\n**1. Line language menu**\n\
+            Exactly three distinct black-on-white line-art approaches (e.g. uniform\
+            \ monoline, weight-varied outline with sparse interior, chunky sticker-outline,\
+            \ geometric constructed line). One or two lines each: what it does for\
+            \ charm, how it survives auto-tracing, what it costs.\n\n**2. Cuteness\
+            \ that isn't generic**\nThe handful of levers that make a line mascot\
+            \ lovable \u2014 eye shape and spacing, head-to-body ratio, pose energy,\
+            \ mouth simplicity, restraint on blush marks \u2014 each as a one-line\
+            \ rule with a number where a number applies. Then a short do-not list\
+            \ of the clich\xE9s that make an AI mascot look stock (dead-centre symmetrical\
+            \ stare, sparkle confetti, floating hearts, blob bodies), each with its\
+            \ one-line replacement.\n\n**3. Trace-safety rules**\nA flat list of concrete,\
+            \ checkable rules for the auto-trace-to-cut pipeline \u2014 one line each,\
+            \ no explanatory paragraphs:\n- minimum stroke thickness relative to the\
+            \ square's width, stated as a fraction (so it scales)\n- minimum gap between\
+            \ two adjacent strokes before they blur into one traced blob\n- why every\
+            \ shape should read as a closed path, and how to spot one that won't\n\
+            - island/floating-part handling and where to add connective bridges\n\
+            - what to do about interior detail that a tracer will turn into noise\
+            \ (crosshatching, stippling, tapering hairlines, single stray dots)\n\
+            - why large solid black fills are avoided here, and the acceptable exceptions\
+            \ (small eyes, pupils, a tiny accent shape)\n\n**4. Composition and hierarchy**\n\
+            Bulleted rules only: square framing, margin as a fraction of the square,\
+            \ centre of visual mass, minimum negative space, the mascot-leads / props-support\
+            \ / text-reinforces hierarchy, and the shared traits that make it read\
+            \ as one illustrator's hand (same stroke weight, same corner radius, same\
+            \ eye style, same spacing rhythm).\n\n**5. Text and badge treatments**\n\
+            Text is **optional**. Briefly: when a word helps versus clutters, a maximum\
+            \ letter count that stays cuttable, how to specify literal text so it\
+            \ renders verbatim (quotes, exact casing), the letterform to ask for,\
+            \ and when a badge ring earns its place versus just boxing the mark in.\
+            \ Six bullets is plenty.\n\n**6. Prompt architecture for step 2**\nThe\
+            \ most important section, so spend your words here. Specify the exact\
+            \ template the step-2 final prompt must follow \u2014 and state that the\
+            \ finished prompt should land at **180\u2013250 words**, long enough to\
+            \ carry the spec, short enough that no single instruction gets diluted.\
+            \ Order it to match how the image model weights a prompt:\n\n1. **Medium\
+            \ and style up front** \u2014 the first sentence states it is a square\
+            \ black-and-white line-art mascot logo, because opening words set the\
+            \ mode for everything after.\n2. **Subject** \u2014 the mascot, its identity,\
+            \ expression, pose.\n3. **Key details** \u2014 props, supporting motifs,\
+            \ any literal text in quotes.\n4. **Layout** \u2014 centring, margins,\
+            \ hierarchy, where each element sits.\n5. **Line and manufacturing spec**\
+            \ \u2014 stroke weight, closed paths, interior-detail limits.\n6. **Exclusions\
+            \ last** \u2014 negatives go at the very end, after every positive descriptor,\
+            \ because a model reading them early tends to treat them as things to\
+            \ compose rather than things to omit.\n\nGive the canonical exclusion\
+            \ list to close with (no grey, no shading, no gradients, no halftone,\
+            \ no dithering, no texture, no colour, no transparency, no background\
+            \ scene, no drop shadow, no outer glow, no frame border unless specified,\
+            \ no watermark, no signature, no extra text beyond what is quoted).\n\n\
+            Also state the two facts the prompt must say in plain words no matter\
+            \ what: the image is **square**, and it is **pure black on a pure white\
+            \ background**.\n\n---\n\n## Response style and length\n\n**About 900\
+            \ words, 1,100 absolute maximum.** Bullets over prose. Concrete and checkable\
+            \ over abstract and aspirational \u2014 \"stroke no thinner than 1/100\
+            \ of the square's width\" beats \"confident lines\". No preamble, no restating\
+            \ this brief back at me, no summary of what you are about to do. Skip\
+            \ the caveats and the reasoning behind each rule; just state the rule.\n\
+            \nClose with a checklist of the rules, 12 lines at most, so step 2 can\
+            \ be graded against it.\n\nThen stop. No final image prompt, no questions,\
+            \ no theme.\n"
+        - command: ai_query
+          delay: '240'
+          mode_ai_wait: slow
+          text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image of oobb\
+            \ part plate basic 1 width 1 height 24 depth make Oobb Part Plate Basic\
+            \ 1 Width 1 Height 24 Depth cute**\n\nApply the house style you just wrote\
+            \ to this theme. Everything you need is now in hand \u2014 do not ask\
+            \ questions, just work.\n\n---\n\n## Part A \u2014 exploration\n\n**Budget:\
+            \ about 450 words, 600 hard ceiling.** Push past the theme's first obvious\
+            \ reading, but do it briskly. No preamble, no restating the theme back\
+            \ at me.\n\n- **Angles:** exactly four mascot interpretations, **one or\
+            \ two sentences each**. Include at least one that anthropomorphises an\
+            \ object or concept from the theme rather than reaching for the obvious\
+            \ animal, and at least one built on a visual pun. Then name your pick\
+            \ in a single sentence saying why it beats the other three \u2014 no full\
+            \ comparison table.\n- **The chosen design:** one short paragraph fixing\
+            \ the pose, expression, props, and line strategy. Prefer gesture or a\
+            \ moment of character over a static front-on stare. Cut any prop that\
+            \ is decoration rather than signal.\n- **Text:** one line \u2014 the exact\
+            \ string in quotes with exact casing, or \"no text\". Text is optional\
+            \ and a clean wordless mark often wins.\n- **Trace and small-size check:**\
+            \ a short bullet list of fixes only \u2014 every stroke to thicken, gap\
+            \ to widen, island to bridge, detail to delete. Just the fixes, not the\
+            \ reasoning, and not a description of what the design looks like at size.\n\
+            \nSkip anything not on that list: no tradeoff essays, no runner-up post-mortems,\
+            \ no notes on your own process.\n\n## Part B \u2014 the final prompt\n\
+            \nEnd your response with the final image-generation prompt for the chosen\
+            \ direction, and nothing after it.\n\nFormat it as a single fenced code\
+            \ block labelled `FINAL IMAGE PROMPT`, so it can be copied cleanly. Follow\
+            \ the six-part architecture from step 1 exactly, in order: medium and\
+            \ style \u2192 subject \u2192 key details \u2192 layout \u2192 line and\
+            \ manufacturing spec \u2192 exclusions last.\n\n**Length: 180\u2013250\
+            \ words.** Long enough to carry the full spec, short enough that no single\
+            \ instruction gets diluted. If you are over, cut adjectives and repeated\
+            \ style words before you cut any manufacturing rule.\n\nHard requirements\
+            \ for that prompt:\n\n- It opens by stating it is a **square black-and-white\
+            \ line-art mascot logo**.\n- It says in plain words that the image is\
+            \ **square** and **pure black on a pure white background**.\n- It states\
+            \ stroke weight as a fraction of the image width, and requires every shape\
+            \ to be a **closed path** with **no floating disconnected islands**.\n\
+            - It caps interior detail explicitly and forbids crosshatching, stippling,\
+            \ and hairline tapers.\n- Any literal text appears in quotes with exact\
+            \ casing, spelled out character by character if it is unusual.\n- The\
+            \ exclusion list comes **last**, after every positive descriptor.\n- It\
+            \ is self-contained: someone pasting it cold, with no memory of this conversation,\
+            \ gets the same image. No \"as discussed above\", no \"the mascot from\
+            \ earlier\".\n- One prompt only. No variants, no alternates, no commentary\
+            \ after the code block.\n"
+        - command: ai_query
+          delay: '300'
+          mode_ai_wait: slow
+          text: Generate the image take all the time you need
+        - command: save_image_generated
+          file_name: initial_generated_icon.png
+          mode_ai_wait: slow
+        - command: close_tab
+        file_test: initial_generated_icon.png
+        retries_until_complete: 0
+      taxonomy_1: oobb
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: part
+      taxonomy_3: plate
+      taxonomy_4: basic
+      taxonomy_5: 1_width
+      taxonomy_6: 1_height
+      taxonomy_7: 24_depth
+      taxonomy_8: ''
+      taxonomy_9: ''
+      url_chat: ''
+      width: 1
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomlout_oobb_part_plate_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_oobb_part_plate_basic_1_width_1_height_24_depth
+project_name: C:\gh\oomlout_oobb_part_plate_version_5
+run_action: false
+run_oomp: true
+run_oomp_populate: true
+run_scad: true
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_3: plate
+taxonomy_3_capital: Plate
+taxonomy_3_first_letter: p
+taxonomy_3_first_letter_upper: P
+taxonomy_3_length_1: p
+taxonomy_3_length_2: pl
+taxonomy_3_length_3: pla
+taxonomy_3_length_4: plat
+taxonomy_3_length_5: plate
+taxonomy_3_upper: PLATE
+taxonomy_3_upper_length_1: P
+taxonomy_3_upper_length_2: PL
+taxonomy_3_upper_length_3: PLA
+taxonomy_3_upper_length_4: PLAT
+taxonomy_3_upper_length_5: PLATE
+taxonomy_4: basic
+taxonomy_4_capital: Basic
+taxonomy_4_first_letter: b
+taxonomy_4_first_letter_upper: B
+taxonomy_4_length_1: b
+taxonomy_4_length_2: ba
+taxonomy_4_length_3: bas
+taxonomy_4_length_4: basi
+taxonomy_4_length_5: basic
+taxonomy_4_upper: BASIC
+taxonomy_4_upper_length_1: B
+taxonomy_4_upper_length_2: BA
+taxonomy_4_upper_length_3: BAS
+taxonomy_4_upper_length_4: BASI
+taxonomy_4_upper_length_5: BASIC
+taxonomy_5: 1_width
+taxonomy_5_capital: 1 Width
+taxonomy_5_first_letter: '1'
+taxonomy_5_first_letter_upper: '1'
+taxonomy_5_length_1: '1'
+taxonomy_5_length_2: '1_'
+taxonomy_5_length_3: 1_w
+taxonomy_5_length_4: 1_wi
+taxonomy_5_length_5: 1_wid
+taxonomy_5_upper: 1_WIDTH
+taxonomy_5_upper_length_1: '1'
+taxonomy_5_upper_length_2: '1_'
+taxonomy_5_upper_length_3: 1_W
+taxonomy_5_upper_length_4: 1_WI
+taxonomy_5_upper_length_5: 1_WID
+taxonomy_6: 1_height
+taxonomy_6_capital: 1 Height
+taxonomy_6_first_letter: '1'
+taxonomy_6_first_letter_upper: '1'
+taxonomy_6_length_1: '1'
+taxonomy_6_length_2: '1_'
+taxonomy_6_length_3: 1_h
+taxonomy_6_length_4: 1_he
+taxonomy_6_length_5: 1_hei
+taxonomy_6_upper: 1_HEIGHT
+taxonomy_6_upper_length_1: '1'
+taxonomy_6_upper_length_2: '1_'
+taxonomy_6_upper_length_3: 1_H
+taxonomy_6_upper_length_4: 1_HE
+taxonomy_6_upper_length_5: 1_HEI
+taxonomy_7: 24_depth
+taxonomy_7_capital: 24 Depth
+taxonomy_7_first_letter: '2'
+taxonomy_7_first_letter_upper: '2'
+taxonomy_7_length_1: '2'
+taxonomy_7_length_2: '24'
+taxonomy_7_length_3: '24_'
+taxonomy_7_length_4: 24_d
+taxonomy_7_length_5: 24_de
+taxonomy_7_upper: 24_DEPTH
+taxonomy_7_upper_length_1: '2'
+taxonomy_7_upper_length_2: '24'
+taxonomy_7_upper_length_3: '24_'
+taxonomy_7_upper_length_4: 24_D
+taxonomy_7_upper_length_5: 24_DE
+taxonomy_8: ''
+taxonomy_9: ''
+thing:
+  bip_39_2_word_array:
+  - kidney
+  - settle
+  bip_39_2_word_no_space: kidneysettle
+  bip_39_2_word_space: kidney settle
+  bip_39_2_word_underscore: kidney_settle
+  bip_39_3_word_array:
+  - kidney
+  - settle
+  - raven
+  bip_39_3_word_no_space: kidneysettleraven
+  bip_39_3_word_space: kidney settle raven
+  bip_39_3_word_underscore: kidney_settle_raven
+  bip_39_full_array:
+  - kidney
+  - settle
+  - raven
+  - shield
+  - work
+  - resemble
+  - build
+  - goddess
+  - chair
+  - tail
+  - merge
+  - assume
+  bip_39_full_no_space: kidneysettleravenshieldworkresemblebuildgoddesschairtailmergeassume
+  bip_39_full_space: kidney settle raven shield work resemble build goddess chair
+    tail merge assume
+  bip_39_full_underscore: kidney_settle_raven_shield_work_resemble_build_goddess_chair_tail_merge_assume
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 24
+      h: 24
+      height: 1
+      pos:
+      - 0
+      - 0
+      - 0
+      r: 7.0
+      shape: cylinder
+      type: positive
+      width: 1
+  - - - - inclusion: laser
+          pos:
+          - 0.0
+          - 0.0
+          - 0
+          r: 3.0
+          shape: hole
+          type: negative
+    - - - inclusion: 3dpr
+          pos:
+          - 0.0
+          - 0.0
+          - 0
+          r: 3.25
+          shape: hole
+          type: negative
+    - - - inclusion: 'true'
+          pos:
+          - 0.0
+          - 0.0
+          - 0
+          r: 3.0
+          shape: hole
+          type: negative
+    - - - inclusion: laser
+          pos:
+          - 0.0
+          - 0.0
+          - 0
+          r: 1.5
+          shape: hole
+          type: negative
+    - - - inclusion: 3dpr
+          pos:
+          - 0.0
+          - 0.0
+          - 0
+          r: 1.8
+          shape: hole
+          type: negative
+    - - - inclusion: 'true'
+          pos:
+          - 0.0
+          - 0.0
+          - 0
+          r: 1.5
+          shape: hole
+          type: negative
+  components_objects:
+  - depth: 24
+    filter: ''
+    generate_stl: true
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oobb_name: basic
+    oomp_mode: project
+    oomp_run: true
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    run_action: false
+    run_oomp: true
+    run_oomp_populate: true
+    run_scad: true
+    save_type: all
+    shape: oobb_plate
+    typ: all
+    type: positive
+    width: 1
+  - both_holes: true
+    depth: 24
+    filter: ''
+    generate_stl: true
+    height: 1
+    holes: all
+    modes:
+    - 3dpr
+    navigation: true
+    oobb_name: basic
+    oomp_mode: project
+    oomp_run: true
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    run_action: false
+    run_oomp: true
+    run_oomp_populate: true
+    run_scad: true
+    save_type: all
+    shape: oobb_holes
+    typ: all
+    type: p
+    width: 1
+  components_string:
+  - oobb_plate_shape_positive_type_24_depth_true_run_oomp_populate_true_run_oomp_false_run_action_true_run_scad_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_height_basic_oobb_name_1_width
+  - oobb_holes_shape_p_type_24_depth_true_run_oomp_populate_true_run_oomp_false_run_action_true_run_scad_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_height_basic_oobb_name_1_width_true_both_holes_all_holes
+  depth: 24
+  description: default basic 1x1x0
+  description_extra: 24_depth
+  description_main: 1_width_1_height
+  directory: parts/oobb_part_plate_basic_1_width_1_height_24_depth
+  generate_stl: true
+  height: 1
+  height_mm: 14
+  id: oobb_part_plate_basic_1_width_1_height_24_depth
+  id_no_class: oobb_part_plate_basic_1_width_1_height_24_depth
+  id_no_size: oobb_part_plate_basic_1_width_1_height_24_depth
+  id_no_type: oobb_part_plate_basic_1_width_1_height_24_depth
+  item_specific: basic
+  kwargs:
+    depth: 24
+    filter: ''
+    generate_stl: true
+    height: 1
+    modes:
+    - 3dpr
+    navigation: true
+    oobb_name: basic
+    oomp_description_extra: 24_depth
+    oomp_description_main: basic_1_width_1_height
+    oomp_mode: project
+    oomp_run: true
+    overwrite: true
+    run_action: false
+    run_oomp: true
+    run_oomp_populate: true
+    run_scad: true
+    save_type: all
+    typ: all
+    type: default_basic
+    width: 1
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_basic_1_width_1_height_24_depth
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_basic_1_width_1_height_24_depth
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_basic_1_width_1_height_24_depth
+  manufacturer: ''
+  md5: 7a788ec9e2dfd96e87732125dbaa2d86
+  md5_10: 7a788ec9e2
+  md5_10_upper: 7A788EC9E2
+  md5_5: 7a788
+  md5_5_upper: 7A788
+  md5_6: 7a788e
+  md5_6_alpha: 4s13i
+  md5_6_alpha_upper: 4S13I
+  md5_6_upper: 7A788E
+  name: Oobb Part Plate Basic 1 Width 1 Height 24 Depth
+  name_no_class: Oobb Part Plate Basic 1 Width 1 Height 24 Depth
+  name_no_size: Oobb Part Plate Basic 1 Width 1 Height 24 Depth
+  name_no_type: Oobb Part Plate Basic 1 Width 1 Height 24 Depth
+  name_proper: Oobb Part Plate Basic 1 Width 1 Height 24 Depth
+  name_short: Default Basic 1x1x24 Depth
+  name_space: oobb part plate basic 1 width 1 height 24 depth
+  name_text: Oobb Part Default Basic 1 Width 1 Height 24 Depth
+  name_upper: OOBB PART PLATE BASIC 1 WIDTH 1 HEIGHT 24 DEPTH
+  oobb_details:
+    depth: 24
+    height: 1
+    oobb_name: basic
+    width: 1
+  oobb_name: basic
+  oomlout_ai_roboclick_1:
+    actions:
+    - command: new_chat
+      description: step_1_create_icon
+    - command: ai_query
+      delay: '240'
+      mode_ai_wait: slow
+      text: "## READ THIS FIRST \u2014 no theme is coming in this message, and that\
+        \ is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free. You\
+        \ are building a reusable house style, not designing a specific logo.\n\n\
+        The theme arrives in step 2. Do **not** ask what the theme is. Do **not**\
+        \ ask any clarifying questions. Do **not** write a final image-generation\
+        \ prompt yet \u2014 you cannot, and attempting one is a failure of this step.\
+        \ Do **not** invent a placeholder theme and design for it. If you feel information\
+        \ is missing, that is expected: the missing information is the theme, it is\
+        \ coming next, and nothing in this step requires it.\n\nYour entire output\
+        \ for this step is a **house style guide** that will be applied to whatever\
+        \ theme arrives next.\n\n---\n\n## The product this style serves\n\n**Intended\
+        \ use:** a square, single-colour, pure-black-on-pure-white mascot logo, generated\
+        \ as a raster image, then **auto-traced to vector and cut/engraved on a laser\
+        \ cutter**. The trace step is unforgiving \u2014 it is the hardest constraint\
+        \ in this brief and should shape most of your recommendations.\n\n**Target\
+        \ feel:** charming, original, cute, polished, instantly readable at ~20 mm.\
+        \ A designed branded icon, not a doodle page and not generic kawaii clip art.\n\
+        \n---\n\n## What to produce\n\nWrite these six sections. **Budget: about 900\
+        \ words total, 1,100 hard ceiling.** That is roughly 100\u2013150 words per\
+        \ section, with section 6 allowed the most. This is a working reference, not\
+        \ an essay \u2014 every line should be a rule someone could check a drawing\
+        \ against. Prefer tight bullets over prose paragraphs, and cut any sentence\
+        \ that only restates the brief back at me.\n\n**1. Line language menu**\n\
+        Exactly three distinct black-on-white line-art approaches (e.g. uniform monoline,\
+        \ weight-varied outline with sparse interior, chunky sticker-outline, geometric\
+        \ constructed line). One or two lines each: what it does for charm, how it\
+        \ survives auto-tracing, what it costs.\n\n**2. Cuteness that isn't generic**\n\
+        The handful of levers that make a line mascot lovable \u2014 eye shape and\
+        \ spacing, head-to-body ratio, pose energy, mouth simplicity, restraint on\
+        \ blush marks \u2014 each as a one-line rule with a number where a number\
+        \ applies. Then a short do-not list of the clich\xE9s that make an AI mascot\
+        \ look stock (dead-centre symmetrical stare, sparkle confetti, floating hearts,\
+        \ blob bodies), each with its one-line replacement.\n\n**3. Trace-safety rules**\n\
+        A flat list of concrete, checkable rules for the auto-trace-to-cut pipeline\
+        \ \u2014 one line each, no explanatory paragraphs:\n- minimum stroke thickness\
+        \ relative to the square's width, stated as a fraction (so it scales)\n- minimum\
+        \ gap between two adjacent strokes before they blur into one traced blob\n\
+        - why every shape should read as a closed path, and how to spot one that won't\n\
+        - island/floating-part handling and where to add connective bridges\n- what\
+        \ to do about interior detail that a tracer will turn into noise (crosshatching,\
+        \ stippling, tapering hairlines, single stray dots)\n- why large solid black\
+        \ fills are avoided here, and the acceptable exceptions (small eyes, pupils,\
+        \ a tiny accent shape)\n\n**4. Composition and hierarchy**\nBulleted rules\
+        \ only: square framing, margin as a fraction of the square, centre of visual\
+        \ mass, minimum negative space, the mascot-leads / props-support / text-reinforces\
+        \ hierarchy, and the shared traits that make it read as one illustrator's\
+        \ hand (same stroke weight, same corner radius, same eye style, same spacing\
+        \ rhythm).\n\n**5. Text and badge treatments**\nText is **optional**. Briefly:\
+        \ when a word helps versus clutters, a maximum letter count that stays cuttable,\
+        \ how to specify literal text so it renders verbatim (quotes, exact casing),\
+        \ the letterform to ask for, and when a badge ring earns its place versus\
+        \ just boxing the mark in. Six bullets is plenty.\n\n**6. Prompt architecture\
+        \ for step 2**\nThe most important section, so spend your words here. Specify\
+        \ the exact template the step-2 final prompt must follow \u2014 and state\
+        \ that the finished prompt should land at **180\u2013250 words**, long enough\
+        \ to carry the spec, short enough that no single instruction gets diluted.\
+        \ Order it to match how the image model weights a prompt:\n\n1. **Medium and\
+        \ style up front** \u2014 the first sentence states it is a square black-and-white\
+        \ line-art mascot logo, because opening words set the mode for everything\
+        \ after.\n2. **Subject** \u2014 the mascot, its identity, expression, pose.\n\
+        3. **Key details** \u2014 props, supporting motifs, any literal text in quotes.\n\
+        4. **Layout** \u2014 centring, margins, hierarchy, where each element sits.\n\
+        5. **Line and manufacturing spec** \u2014 stroke weight, closed paths, interior-detail\
+        \ limits.\n6. **Exclusions last** \u2014 negatives go at the very end, after\
+        \ every positive descriptor, because a model reading them early tends to treat\
+        \ them as things to compose rather than things to omit.\n\nGive the canonical\
+        \ exclusion list to close with (no grey, no shading, no gradients, no halftone,\
+        \ no dithering, no texture, no colour, no transparency, no background scene,\
+        \ no drop shadow, no outer glow, no frame border unless specified, no watermark,\
+        \ no signature, no extra text beyond what is quoted).\n\nAlso state the two\
+        \ facts the prompt must say in plain words no matter what: the image is **square**,\
+        \ and it is **pure black on a pure white background**.\n\n---\n\n## Response\
+        \ style and length\n\n**About 900 words, 1,100 absolute maximum.** Bullets\
+        \ over prose. Concrete and checkable over abstract and aspirational \u2014\
+        \ \"stroke no thinner than 1/100 of the square's width\" beats \"confident\
+        \ lines\". No preamble, no restating this brief back at me, no summary of\
+        \ what you are about to do. Skip the caveats and the reasoning behind each\
+        \ rule; just state the rule.\n\nClose with a checklist of the rules, 12 lines\
+        \ at most, so step 2 can be graded against it.\n\nThen stop. No final image\
+        \ prompt, no questions, no theme.\n"
+    - command: ai_query
+      delay: '240'
+      mode_ai_wait: slow
+      text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image of oobb part\
+        \ plate basic 1 width 1 height 24 depth make Oobb Part Plate Basic 1 Width\
+        \ 1 Height 24 Depth cute**\n\nApply the house style you just wrote to this\
+        \ theme. Everything you need is now in hand \u2014 do not ask questions, just\
+        \ work.\n\n---\n\n## Part A \u2014 exploration\n\n**Budget: about 450 words,\
+        \ 600 hard ceiling.** Push past the theme's first obvious reading, but do\
+        \ it briskly. No preamble, no restating the theme back at me.\n\n- **Angles:**\
+        \ exactly four mascot interpretations, **one or two sentences each**. Include\
+        \ at least one that anthropomorphises an object or concept from the theme\
+        \ rather than reaching for the obvious animal, and at least one built on a\
+        \ visual pun. Then name your pick in a single sentence saying why it beats\
+        \ the other three \u2014 no full comparison table.\n- **The chosen design:**\
+        \ one short paragraph fixing the pose, expression, props, and line strategy.\
+        \ Prefer gesture or a moment of character over a static front-on stare. Cut\
+        \ any prop that is decoration rather than signal.\n- **Text:** one line \u2014\
+        \ the exact string in quotes with exact casing, or \"no text\". Text is optional\
+        \ and a clean wordless mark often wins.\n- **Trace and small-size check:**\
+        \ a short bullet list of fixes only \u2014 every stroke to thicken, gap to\
+        \ widen, island to bridge, detail to delete. Just the fixes, not the reasoning,\
+        \ and not a description of what the design looks like at size.\n\nSkip anything\
+        \ not on that list: no tradeoff essays, no runner-up post-mortems, no notes\
+        \ on your own process.\n\n## Part B \u2014 the final prompt\n\nEnd your response\
+        \ with the final image-generation prompt for the chosen direction, and nothing\
+        \ after it.\n\nFormat it as a single fenced code block labelled `FINAL IMAGE\
+        \ PROMPT`, so it can be copied cleanly. Follow the six-part architecture from\
+        \ step 1 exactly, in order: medium and style \u2192 subject \u2192 key details\
+        \ \u2192 layout \u2192 line and manufacturing spec \u2192 exclusions last.\n\
+        \n**Length: 180\u2013250 words.** Long enough to carry the full spec, short\
+        \ enough that no single instruction gets diluted. If you are over, cut adjectives\
+        \ and repeated style words before you cut any manufacturing rule.\n\nHard\
+        \ requirements for that prompt:\n\n- It opens by stating it is a **square\
+        \ black-and-white line-art mascot logo**.\n- It says in plain words that the\
+        \ image is **square** and **pure black on a pure white background**.\n- It\
+        \ states stroke weight as a fraction of the image width, and requires every\
+        \ shape to be a **closed path** with **no floating disconnected islands**.\n\
+        - It caps interior detail explicitly and forbids crosshatching, stippling,\
+        \ and hairline tapers.\n- Any literal text appears in quotes with exact casing,\
+        \ spelled out character by character if it is unusual.\n- The exclusion list\
+        \ comes **last**, after every positive descriptor.\n- It is self-contained:\
+        \ someone pasting it cold, with no memory of this conversation, gets the same\
+        \ image. No \"as discussed above\", no \"the mascot from earlier\".\n- One\
+        \ prompt only. No variants, no alternates, no commentary after the code block.\n"
+    - command: ai_query
+      delay: '300'
+      mode_ai_wait: slow
+      text: Generate the image take all the time you need
+    - command: save_image_generated
+      file_name: initial_generated_icon.png
+      mode_ai_wait: slow
+    - command: close_tab
+    file_test: initial_generated_icon.png
+    retries_until_complete: 0
+  oomlout_ai_roboclick_2:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        depth: 24
+        directory: parts\oobb_part_plate_basic_1_width_1_height_24_depth
+        height: 1
+        item_specific: basic
+        name: oobb_part_plate_basic_1_width_1_height_24_depth
+        name_proper: Oobb Part Plate Basic 1 Width 1 Height 24 Depth
+        name_space: oobb part plate basic 1 width 1 height 24 depth
+        name_upper: OOBB PART PLATE BASIC 1 WIDTH 1 HEIGHT 24 DEPTH
+        oobb_details:
+          depth: 24
+          height: 1
+          oobb_name: basic
+          width: 1
+        oomlout_ai_roboclick_1:
+          actions:
+          - command: new_chat
+            description: step_1_create_icon
+          - command: ai_query
+            delay: '240'
+            mode_ai_wait: slow
+            text: "## READ THIS FIRST \u2014 no theme is coming in this message, and\
+              \ that is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free.\
+              \ You are building a reusable house style, not designing a specific\
+              \ logo.\n\nThe theme arrives in step 2. Do **not** ask what the theme\
+              \ is. Do **not** ask any clarifying questions. Do **not** write a final\
+              \ image-generation prompt yet \u2014 you cannot, and attempting one\
+              \ is a failure of this step. Do **not** invent a placeholder theme and\
+              \ design for it. If you feel information is missing, that is expected:\
+              \ the missing information is the theme, it is coming next, and nothing\
+              \ in this step requires it.\n\nYour entire output for this step is a\
+              \ **house style guide** that will be applied to whatever theme arrives\
+              \ next.\n\n---\n\n## The product this style serves\n\n**Intended use:**\
+              \ a square, single-colour, pure-black-on-pure-white mascot logo, generated\
+              \ as a raster image, then **auto-traced to vector and cut/engraved on\
+              \ a laser cutter**. The trace step is unforgiving \u2014 it is the hardest\
+              \ constraint in this brief and should shape most of your recommendations.\n\
+              \n**Target feel:** charming, original, cute, polished, instantly readable\
+              \ at ~20 mm. A designed branded icon, not a doodle page and not generic\
+              \ kawaii clip art.\n\n---\n\n## What to produce\n\nWrite these six sections.\
+              \ **Budget: about 900 words total, 1,100 hard ceiling.** That is roughly\
+              \ 100\u2013150 words per section, with section 6 allowed the most. This\
+              \ is a working reference, not an essay \u2014 every line should be a\
+              \ rule someone could check a drawing against. Prefer tight bullets over\
+              \ prose paragraphs, and cut any sentence that only restates the brief\
+              \ back at me.\n\n**1. Line language menu**\nExactly three distinct black-on-white\
+              \ line-art approaches (e.g. uniform monoline, weight-varied outline\
+              \ with sparse interior, chunky sticker-outline, geometric constructed\
+              \ line). One or two lines each: what it does for charm, how it survives\
+              \ auto-tracing, what it costs.\n\n**2. Cuteness that isn't generic**\n\
+              The handful of levers that make a line mascot lovable \u2014 eye shape\
+              \ and spacing, head-to-body ratio, pose energy, mouth simplicity, restraint\
+              \ on blush marks \u2014 each as a one-line rule with a number where\
+              \ a number applies. Then a short do-not list of the clich\xE9s that\
+              \ make an AI mascot look stock (dead-centre symmetrical stare, sparkle\
+              \ confetti, floating hearts, blob bodies), each with its one-line replacement.\n\
+              \n**3. Trace-safety rules**\nA flat list of concrete, checkable rules\
+              \ for the auto-trace-to-cut pipeline \u2014 one line each, no explanatory\
+              \ paragraphs:\n- minimum stroke thickness relative to the square's width,\
+              \ stated as a fraction (so it scales)\n- minimum gap between two adjacent\
+              \ strokes before they blur into one traced blob\n- why every shape should\
+              \ read as a closed path, and how to spot one that won't\n- island/floating-part\
+              \ handling and where to add connective bridges\n- what to do about interior\
+              \ detail that a tracer will turn into noise (crosshatching, stippling,\
+              \ tapering hairlines, single stray dots)\n- why large solid black fills\
+              \ are avoided here, and the acceptable exceptions (small eyes, pupils,\
+              \ a tiny accent shape)\n\n**4. Composition and hierarchy**\nBulleted\
+              \ rules only: square framing, margin as a fraction of the square, centre\
+              \ of visual mass, minimum negative space, the mascot-leads / props-support\
+              \ / text-reinforces hierarchy, and the shared traits that make it read\
+              \ as one illustrator's hand (same stroke weight, same corner radius,\
+              \ same eye style, same spacing rhythm).\n\n**5. Text and badge treatments**\n\
+              Text is **optional**. Briefly: when a word helps versus clutters, a\
+              \ maximum letter count that stays cuttable, how to specify literal text\
+              \ so it renders verbatim (quotes, exact casing), the letterform to ask\
+              \ for, and when a badge ring earns its place versus just boxing the\
+              \ mark in. Six bullets is plenty.\n\n**6. Prompt architecture for step\
+              \ 2**\nThe most important section, so spend your words here. Specify\
+              \ the exact template the step-2 final prompt must follow \u2014 and\
+              \ state that the finished prompt should land at **180\u2013250 words**,\
+              \ long enough to carry the spec, short enough that no single instruction\
+              \ gets diluted. Order it to match how the image model weights a prompt:\n\
+              \n1. **Medium and style up front** \u2014 the first sentence states\
+              \ it is a square black-and-white line-art mascot logo, because opening\
+              \ words set the mode for everything after.\n2. **Subject** \u2014 the\
+              \ mascot, its identity, expression, pose.\n3. **Key details** \u2014\
+              \ props, supporting motifs, any literal text in quotes.\n4. **Layout**\
+              \ \u2014 centring, margins, hierarchy, where each element sits.\n5.\
+              \ **Line and manufacturing spec** \u2014 stroke weight, closed paths,\
+              \ interior-detail limits.\n6. **Exclusions last** \u2014 negatives go\
+              \ at the very end, after every positive descriptor, because a model\
+              \ reading them early tends to treat them as things to compose rather\
+              \ than things to omit.\n\nGive the canonical exclusion list to close\
+              \ with (no grey, no shading, no gradients, no halftone, no dithering,\
+              \ no texture, no colour, no transparency, no background scene, no drop\
+              \ shadow, no outer glow, no frame border unless specified, no watermark,\
+              \ no signature, no extra text beyond what is quoted).\n\nAlso state\
+              \ the two facts the prompt must say in plain words no matter what: the\
+              \ image is **square**, and it is **pure black on a pure white background**.\n\
+              \n---\n\n## Response style and length\n\n**About 900 words, 1,100 absolute\
+              \ maximum.** Bullets over prose. Concrete and checkable over abstract\
+              \ and aspirational \u2014 \"stroke no thinner than 1/100 of the square's\
+              \ width\" beats \"confident lines\". No preamble, no restating this\
+              \ brief back at me, no summary of what you are about to do. Skip the\
+              \ caveats and the reasoning behind each rule; just state the rule.\n\
+              \nClose with a checklist of the rules, 12 lines at most, so step 2 can\
+              \ be graded against it.\n\nThen stop. No final image prompt, no questions,\
+              \ no theme.\n"
+          - command: ai_query
+            delay: '240'
+            mode_ai_wait: slow
+            text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image of\
+              \ oobb part plate basic 1 width 1 height 24 depth make Oobb Part Plate\
+              \ Basic 1 Width 1 Height 24 Depth cute**\n\nApply the house style you\
+              \ just wrote to this theme. Everything you need is now in hand \u2014\
+              \ do not ask questions, just work.\n\n---\n\n## Part A \u2014 exploration\n\
+              \n**Budget: about 450 words, 600 hard ceiling.** Push past the theme's\
+              \ first obvious reading, but do it briskly. No preamble, no restating\
+              \ the theme back at me.\n\n- **Angles:** exactly four mascot interpretations,\
+              \ **one or two sentences each**. Include at least one that anthropomorphises\
+              \ an object or concept from the theme rather than reaching for the obvious\
+              \ animal, and at least one built on a visual pun. Then name your pick\
+              \ in a single sentence saying why it beats the other three \u2014 no\
+              \ full comparison table.\n- **The chosen design:** one short paragraph\
+              \ fixing the pose, expression, props, and line strategy. Prefer gesture\
+              \ or a moment of character over a static front-on stare. Cut any prop\
+              \ that is decoration rather than signal.\n- **Text:** one line \u2014\
+              \ the exact string in quotes with exact casing, or \"no text\". Text\
+              \ is optional and a clean wordless mark often wins.\n- **Trace and small-size\
+              \ check:** a short bullet list of fixes only \u2014 every stroke to\
+              \ thicken, gap to widen, island to bridge, detail to delete. Just the\
+              \ fixes, not the reasoning, and not a description of what the design\
+              \ looks like at size.\n\nSkip anything not on that list: no tradeoff\
+              \ essays, no runner-up post-mortems, no notes on your own process.\n\
+              \n## Part B \u2014 the final prompt\n\nEnd your response with the final\
+              \ image-generation prompt for the chosen direction, and nothing after\
+              \ it.\n\nFormat it as a single fenced code block labelled `FINAL IMAGE\
+              \ PROMPT`, so it can be copied cleanly. Follow the six-part architecture\
+              \ from step 1 exactly, in order: medium and style \u2192 subject \u2192\
+              \ key details \u2192 layout \u2192 line and manufacturing spec \u2192\
+              \ exclusions last.\n\n**Length: 180\u2013250 words.** Long enough to\
+              \ carry the full spec, short enough that no single instruction gets\
+              \ diluted. If you are over, cut adjectives and repeated style words\
+              \ before you cut any manufacturing rule.\n\nHard requirements for that\
+              \ prompt:\n\n- It opens by stating it is a **square black-and-white\
+              \ line-art mascot logo**.\n- It says in plain words that the image is\
+              \ **square** and **pure black on a pure white background**.\n- It states\
+              \ stroke weight as a fraction of the image width, and requires every\
+              \ shape to be a **closed path** with **no floating disconnected islands**.\n\
+              - It caps interior detail explicitly and forbids crosshatching, stippling,\
+              \ and hairline tapers.\n- Any literal text appears in quotes with exact\
+              \ casing, spelled out character by character if it is unusual.\n- The\
+              \ exclusion list comes **last**, after every positive descriptor.\n\
+              - It is self-contained: someone pasting it cold, with no memory of this\
+              \ conversation, gets the same image. No \"as discussed above\", no \"\
+              the mascot from earlier\".\n- One prompt only. No variants, no alternates,\
+              \ no commentary after the code block.\n"
+          - command: ai_query
+            delay: '300'
+            mode_ai_wait: slow
+            text: Generate the image take all the time you need
+          - command: save_image_generated
+            file_name: initial_generated_icon.png
+            mode_ai_wait: slow
+          - command: close_tab
+          file_test: initial_generated_icon.png
+          retries_until_complete: 0
+        taxonomy_1: oobb
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: part
+        taxonomy_3: plate
+        taxonomy_4: basic
+        taxonomy_5: 1_width
+        taxonomy_6: 1_height
+        taxonomy_7: 24_depth
+        taxonomy_8: ''
+        taxonomy_9: ''
+        url_chat: ''
+        width: 1
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\oomlout_oobb_part_plate_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomp_key: oomp_oobb_part_plate_basic_1_width_1_height_24_depth
+  part_number: ''
+  run_action: false
+  run_oomp: true
+  run_oomp_populate: true
+  run_scad: true
+  short_name: ''
+  size: default_basic
+  taxonomy_1: oobb
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Oobb
+  taxonomy_1_first_letter: o
+  taxonomy_1_first_letter_upper: O
+  taxonomy_1_length_1: o
+  taxonomy_1_length_2: oo
+  taxonomy_1_length_3: oob
+  taxonomy_1_length_4: oobb
+  taxonomy_1_length_5: oobb
+  taxonomy_1_upper: OOBB
+  taxonomy_1_upper_length_1: O
+  taxonomy_1_upper_length_2: OO
+  taxonomy_1_upper_length_3: OOB
+  taxonomy_1_upper_length_4: OOBB
+  taxonomy_1_upper_length_5: OOBB
+  taxonomy_2: part
+  taxonomy_2_capital: Part
+  taxonomy_2_first_letter: p
+  taxonomy_2_first_letter_upper: P
+  taxonomy_2_length_1: p
+  taxonomy_2_length_2: pa
+  taxonomy_2_length_3: par
+  taxonomy_2_length_4: part
+  taxonomy_2_length_5: part
+  taxonomy_2_upper: PART
+  taxonomy_2_upper_length_1: P
+  taxonomy_2_upper_length_2: PA
+  taxonomy_2_upper_length_3: PAR
+  taxonomy_2_upper_length_4: PART
+  taxonomy_2_upper_length_5: PART
+  taxonomy_3: plate
+  taxonomy_3_capital: Plate
+  taxonomy_3_first_letter: p
+  taxonomy_3_first_letter_upper: P
+  taxonomy_3_length_1: p
+  taxonomy_3_length_2: pl
+  taxonomy_3_length_3: pla
+  taxonomy_3_length_4: plat
+  taxonomy_3_length_5: plate
+  taxonomy_3_upper: PLATE
+  taxonomy_3_upper_length_1: P
+  taxonomy_3_upper_length_2: PL
+  taxonomy_3_upper_length_3: PLA
+  taxonomy_3_upper_length_4: PLAT
+  taxonomy_3_upper_length_5: PLATE
+  taxonomy_4: basic
+  taxonomy_4_capital: Basic
+  taxonomy_4_first_letter: b
+  taxonomy_4_first_letter_upper: B
+  taxonomy_4_length_1: b
+  taxonomy_4_length_2: ba
+  taxonomy_4_length_3: bas
+  taxonomy_4_length_4: basi
+  taxonomy_4_length_5: basic
+  taxonomy_4_upper: BASIC
+  taxonomy_4_upper_length_1: B
+  taxonomy_4_upper_length_2: BA
+  taxonomy_4_upper_length_3: BAS
+  taxonomy_4_upper_length_4: BASI
+  taxonomy_4_upper_length_5: BASIC
+  taxonomy_5: 1_width
+  taxonomy_5_capital: 1 Width
+  taxonomy_5_first_letter: '1'
+  taxonomy_5_first_letter_upper: '1'
+  taxonomy_5_length_1: '1'
+  taxonomy_5_length_2: '1_'
+  taxonomy_5_length_3: 1_w
+  taxonomy_5_length_4: 1_wi
+  taxonomy_5_length_5: 1_wid
+  taxonomy_5_upper: 1_WIDTH
+  taxonomy_5_upper_length_1: '1'
+  taxonomy_5_upper_length_2: '1_'
+  taxonomy_5_upper_length_3: 1_W
+  taxonomy_5_upper_length_4: 1_WI
+  taxonomy_5_upper_length_5: 1_WID
+  taxonomy_6: 1_height
+  taxonomy_6_capital: 1 Height
+  taxonomy_6_first_letter: '1'
+  taxonomy_6_first_letter_upper: '1'
+  taxonomy_6_length_1: '1'
+  taxonomy_6_length_2: '1_'
+  taxonomy_6_length_3: 1_h
+  taxonomy_6_length_4: 1_he
+  taxonomy_6_length_5: 1_hei
+  taxonomy_6_upper: 1_HEIGHT
+  taxonomy_6_upper_length_1: '1'
+  taxonomy_6_upper_length_2: '1_'
+  taxonomy_6_upper_length_3: 1_H
+  taxonomy_6_upper_length_4: 1_HE
+  taxonomy_6_upper_length_5: 1_HEI
+  taxonomy_7: 24_depth
+  taxonomy_7_capital: 24 Depth
+  taxonomy_7_first_letter: '2'
+  taxonomy_7_first_letter_upper: '2'
+  taxonomy_7_length_1: '2'
+  taxonomy_7_length_2: '24'
+  taxonomy_7_length_3: '24_'
+  taxonomy_7_length_4: 24_d
+  taxonomy_7_length_5: 24_de
+  taxonomy_7_upper: 24_DEPTH
+  taxonomy_7_upper_length_1: '2'
+  taxonomy_7_upper_length_2: '24'
+  taxonomy_7_upper_length_3: '24_'
+  taxonomy_7_upper_length_4: 24_D
+  taxonomy_7_upper_length_5: 24_DE
+  taxonomy_8: ''
+  taxonomy_9: ''
+  type: part
+  url_chat: ''
+  width: 1
+  width_mm: 14
+url_chat: ''
+width: 1

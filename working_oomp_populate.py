@@ -41,6 +41,15 @@ def main(**kwargs):
         for height in range(1, 11):
             options.append({"item_specific": "basic", "width": 1, "height": height, "depth": depth})
     # Optional manual entries can still be merged in when needed.
+    
+    #deep 1x1 to act as spacer
+        depths = [18,21,24,27,30,36,42,48,54,63,70]
+        for depth in depths:
+            options.append({"item_specific": "basic", "width": 1, "height": 1, "depth": depth})
+        # Optional manual entries can still be merged in when needed.
+        
+
+
     if False:
         with open("working_manual.yaml", "r", encoding="utf-8") as file:
             import yaml
