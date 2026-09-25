@@ -89,7 +89,7 @@ oomlout_ai_roboclick_1:
   - command: new_chat
     description: step_1_create_icon
   - command: ai_query
-    delay: '240'
+    delay: '180'
     mode_ai_wait: slow
     text: "## READ THIS FIRST \u2014 no theme is coming in this message, and that\
       \ is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free. You\
@@ -171,7 +171,7 @@ oomlout_ai_roboclick_1:
       \ can be graded against it.\n\nThen stop. No final image prompt, no questions,\
       \ no theme.\n"
   - command: ai_query
-    delay: '240'
+    delay: '180'
     mode_ai_wait: slow
     text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image of oobb part\
       \ plate basic 1 width 8 height 12 depth make Oobb Part Plate Basic 1 Width 8\
@@ -248,7 +248,7 @@ oomlout_ai_roboclick_2:
         - command: new_chat
           description: step_1_create_icon
         - command: ai_query
-          delay: '240'
+          delay: '180'
           mode_ai_wait: slow
           text: "## READ THIS FIRST \u2014 no theme is coming in this message, and\
             \ that is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free.\
@@ -336,7 +336,7 @@ oomlout_ai_roboclick_2:
             \ be graded against it.\n\nThen stop. No final image prompt, no questions,\
             \ no theme.\n"
         - command: ai_query
-          delay: '240'
+          delay: '180'
           mode_ai_wait: slow
           text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image of oobb\
             \ part plate basic 1 width 8 height 12 depth make Oobb Part Plate Basic\
@@ -1257,7 +1257,7 @@ thing:
     - command: new_chat
       description: step_1_create_icon
     - command: ai_query
-      delay: '240'
+      delay: '180'
       mode_ai_wait: slow
       text: "## READ THIS FIRST \u2014 no theme is coming in this message, and that\
         \ is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free. You\
@@ -1340,7 +1340,7 @@ thing:
         \ at most, so step 2 can be graded against it.\n\nThen stop. No final image\
         \ prompt, no questions, no theme.\n"
     - command: ai_query
-      delay: '240'
+      delay: '180'
       mode_ai_wait: slow
       text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image of oobb part\
         \ plate basic 1 width 8 height 12 depth make Oobb Part Plate Basic 1 Width\
@@ -1418,7 +1418,7 @@ thing:
           - command: new_chat
             description: step_1_create_icon
           - command: ai_query
-            delay: '240'
+            delay: '180'
             mode_ai_wait: slow
             text: "## READ THIS FIRST \u2014 no theme is coming in this message, and\
               \ that is correct\n\nThis is **step 1 of 2**. It is deliberately theme-free.\
@@ -1508,7 +1508,7 @@ thing:
               \ be graded against it.\n\nThen stop. No final image prompt, no questions,\
               \ no theme.\n"
           - command: ai_query
-            delay: '240'
+            delay: '180'
             mode_ai_wait: slow
             text: "## Step 2 of 2 \u2014 the theme\n\nThe theme is: **an image of\
               \ oobb part plate basic 1 width 8 height 12 depth make Oobb Part Plate\

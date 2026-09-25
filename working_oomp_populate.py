@@ -38,7 +38,7 @@ def main(**kwargs):
     #basic singles (width=1): extra depths, height >= width always true
     depths = [3, 6, 9, 12, 15]
     for depth in depths:
-        for height in range(1, 11):
+        for height in range(1, 16):
             options.append({"item_specific": "basic", "width": 1, "height": height, "depth": depth})
     # Optional manual entries can still be merged in when needed.
     
