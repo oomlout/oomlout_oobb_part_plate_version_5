@@ -43,7 +43,7 @@ def main(**kwargs):
     # Optional manual entries can still be merged in when needed.
     
     #deep 1x1 to act as spacer
-        depths = [18,21,24,27,30,36,42,48,54,63,70]
+        depths = [18,21,24,27,30,36,42,45,48,54,60,63,70,75]
         for depth in depths:
             options.append({"item_specific": "basic", "width": 1, "height": 1, "depth": depth})
         # Optional manual entries can still be merged in when needed.
