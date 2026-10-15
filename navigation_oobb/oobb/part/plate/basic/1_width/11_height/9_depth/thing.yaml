@@ -52,10 +52,11 @@ kwargs:
   oomp_mode: project
   oomp_run: true
   overwrite: true
-  run_action: false
+  run_action: true
   run_oomp: true
   run_oomp_populate: true
   run_scad: true
+  run_svg: true
   typ: all
   type: default_basic
   width: 1
@@ -419,10 +420,11 @@ oomlout_ai_roboclick_2:
   retries_until_complete: 0
 oomp_key: oomp_oobb_part_plate_basic_1_width_11_height_9_depth
 project_name: C:\gh\oomlout_oobb_part_plate_version_5
-run_action: false
+run_action: true
 run_oomp: true
 run_oomp_populate: true
 run_scad: true
+run_svg: true
 taxonomy_1: oobb
 taxonomy_10: ''
 taxonomy_11: ''
@@ -1367,10 +1369,11 @@ thing:
     - 0
     - 0
     - 0
-    run_action: false
+    run_action: true
     run_oomp: true
     run_oomp_populate: true
     run_scad: true
+    run_svg: true
     save_type: all
     shape: oobb_plate
     typ: all
@@ -1393,18 +1396,19 @@ thing:
     - 0
     - 0
     - 0
-    run_action: false
+    run_action: true
     run_oomp: true
     run_oomp_populate: true
     run_scad: true
+    run_svg: true
     save_type: all
     shape: oobb_holes
     typ: all
     type: p
     width: 1
   components_string:
-  - oobb_plate_shape_positive_type_9_depth_true_run_oomp_populate_true_run_oomp_false_run_action_true_run_scad_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_11_height_basic_oobb_name_1_width
-  - oobb_holes_shape_p_type_9_depth_true_run_oomp_populate_true_run_oomp_false_run_action_true_run_scad_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_11_height_basic_oobb_name_1_width_true_both_holes_all_holes
+  - oobb_plate_shape_positive_type_9_depth_true_run_oomp_populate_true_run_oomp_true_run_action_true_run_scad_true_run_svg_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_11_height_basic_oobb_name_1_width
+  - oobb_holes_shape_p_type_9_depth_true_run_oomp_populate_true_run_oomp_true_run_action_true_run_scad_true_run_svg_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_11_height_basic_oobb_name_1_width_true_both_holes_all_holes
   depth: 9
   description: default basic 1x11x0
   description_extra: 9_depth
@@ -1432,10 +1436,11 @@ thing:
     oomp_mode: project
     oomp_run: true
     overwrite: true
-    run_action: false
+    run_action: true
     run_oomp: true
     run_oomp_populate: true
     run_scad: true
+    run_svg: true
     save_type: all
     typ: all
     type: default_basic
@@ -1808,10 +1813,11 @@ thing:
     retries_until_complete: 0
   oomp_key: oomp_oobb_part_plate_basic_1_width_11_height_9_depth
   part_number: ''
-  run_action: false
+  run_action: true
   run_oomp: true
   run_oomp_populate: true
   run_scad: true
+  run_svg: true
   short_name: ''
   size: default_basic
   taxonomy_1: oobb

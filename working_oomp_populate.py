@@ -35,6 +35,14 @@ def main(**kwargs):
             for height in range(width, 11):
                 options.append({"item_specific": "basic", "width": width, "height": height, "depth": depth})
 
+
+    #basic extra desirable sizes in 3 and 6 mm depths
+    depths = [3, 6]
+    extra_sizes = [(11, 11), (13, 13), (15, 15), (11, 3), (15, 3), (11, 5), (13, 5), (15, 5)]
+    for depth in depths:
+        for width, height in extra_sizes:
+            options.append({"item_specific": "basic", "width": width, "height": height, "depth": depth})
+
     #basic singles (width=1): extra depths, height >= width always true
     depths = [3, 6, 9, 12, 15]
     for depth in depths:
@@ -48,6 +56,7 @@ def main(**kwargs):
             options.append({"item_specific": "basic", "width": 1, "height": 1, "depth": depth})
         # Optional manual entries can still be merged in when needed.
         
+
 
 
     if False:
