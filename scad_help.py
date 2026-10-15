@@ -258,6 +258,17 @@ def make_scad_generic(part):
         cleanup_raw_scad_artifacts(folder)
         
 
+    if kwargs.get("generate_dxf", True):
+        # One nominal laser-cut outline per plate, regardless of its thickness.
+        # save_type="laser" exports only the 2D file, not the intermediate solid.
+        depth = kwargs.get("depth", 3)
+        z = kwargs.get("pos", [0, 0, 0])[2]
+        oobb.opsc_make_object(
+            f"{folder}/laser.scad", thing["components"], mode="laser",
+            save_type="laser", overwrite=overwrite, layers=1, start=z + depth / 2,
+        )
+        cleanup_raw_scad_artifacts(folder)
+
 
     yaml_file = f"{folder}/working.yaml"
     #partial dump

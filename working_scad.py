@@ -64,6 +64,8 @@ def get_parts(kwargs, oomp_mode):
         part_kwargs = copy.deepcopy(kwargs)
         part_kwargs.update(copy.deepcopy(loaded_part.get("kwargs", {})))
         part_kwargs.update(copy.deepcopy(oobb_details))
+        # This run's export choice takes precedence over saved build kwargs.
+        part_kwargs["generate_dxf"] = kwargs.get("generate_dxf", True)
         part["kwargs"] = part_kwargs
         part["oobb_name"] = part.get("oobb_name", oobb_details.get("oobb_name", "default"))
 
