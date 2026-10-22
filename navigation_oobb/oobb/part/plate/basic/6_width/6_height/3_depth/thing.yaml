@@ -283,19 +283,480 @@ thing:
   classification: oobb
   color: ''
   components:
-  - - depth: 3
-      height: 6
+  - - objects:
+      - depth: 3
+        height: 6
+        pos:
+        - 0
+        - 0
+        - 1.5
+        radius_rounded: 1.5
+        shape: rounded_rectangle
+        size:
+        - 89
+        - 89
+        - 0.0
+        type: positive
+        width: 6
+      - depth: 3
+        height: 6
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.5
+        radius_rounded: 1.5
+        shape: rounded_rectangle
+        size:
+        - 86.0
+        - 86.0
+        - 1.5
+        type: positive
+        width: 6
+      - depth: 3
+        height: 6
+        pos:
+        - 0
+        - 0
+        - 1.5
+        r: 3.5
+        radius_rounded: 1.5
+        shape: rounded_rectangle
+        size:
+        - 86.0
+        - 86.0
+        - 1.5
+        type: positive
+        width: 6
+      - - - depth: 79
+            h: 79
+            height: 6
+            inclusion: laser
+            pos: &id001
+            - 43.0
+            - 39.5
+            - 1.5
+            r: 1.5
+            radius_rounded: 1.5
+            rot: &id002
+            - 90
+            - 0
+            - 0
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 3dpr
+            pos: *id001
+            r: 1.5
+            radius_rounded: 1.5
+            rot: *id002
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 'true'
+            pos: *id001
+            r: 1.5
+            radius: 1.5
+            radius_rounded: 1.5
+            rot: *id002
+            shape: cylinder
+            type: positive
+            width: 6
+      - - - depth: 79
+            h: 79
+            height: 6
+            inclusion: laser
+            pos: &id003
+            - -43.0
+            - 39.5
+            - 1.5
+            r: 1.5
+            radius_rounded: 1.5
+            rot: &id004
+            - 90
+            - 0
+            - 0
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 3dpr
+            pos: *id003
+            r: 1.5
+            radius_rounded: 1.5
+            rot: *id004
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 'true'
+            pos: *id003
+            r: 1.5
+            radius: 1.5
+            radius_rounded: 1.5
+            rot: *id004
+            shape: cylinder
+            type: positive
+            width: 6
+      - - - depth: 79
+            h: 79
+            height: 6
+            inclusion: laser
+            pos: &id005
+            - 43.0
+            - 39.5
+            - 1.5
+            r: 1.5
+            radius_rounded: 1.5
+            rot: &id006
+            - 90
+            - 0
+            - 0
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 3dpr
+            pos: *id005
+            r: 1.5
+            radius_rounded: 1.5
+            rot: *id006
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 'true'
+            pos: *id005
+            r: 1.5
+            radius: 1.5
+            radius_rounded: 1.5
+            rot: *id006
+            shape: cylinder
+            type: positive
+            width: 6
+      - - - depth: 79
+            h: 79
+            height: 6
+            inclusion: laser
+            pos: &id007
+            - -43.0
+            - 39.5
+            - 1.5
+            r: 1.5
+            radius_rounded: 1.5
+            rot: &id008
+            - 90
+            - 0
+            - 0
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 3dpr
+            pos: *id007
+            r: 1.5
+            radius_rounded: 1.5
+            rot: *id008
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 'true'
+            pos: *id007
+            r: 1.5
+            radius: 1.5
+            radius_rounded: 1.5
+            rot: *id008
+            shape: cylinder
+            type: positive
+            width: 6
+      - - - depth: 79
+            h: 79
+            height: 6
+            inclusion: laser
+            pos: &id009
+            - -39.5
+            - 43.0
+            - 1.5
+            r: 1.5
+            radius_rounded: 1.5
+            rot: &id010
+            - 0
+            - 90
+            - 0
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 3dpr
+            pos: *id009
+            r: 1.5
+            radius_rounded: 1.5
+            rot: *id010
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 'true'
+            pos: *id009
+            r: 1.5
+            radius: 1.5
+            radius_rounded: 1.5
+            rot: *id010
+            shape: cylinder
+            type: positive
+            width: 6
+      - - - depth: 79
+            h: 79
+            height: 6
+            inclusion: laser
+            pos: &id011
+            - -39.5
+            - -43.0
+            - 1.5
+            r: 1.5
+            radius_rounded: 1.5
+            rot: &id012
+            - 0
+            - 90
+            - 0
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 3dpr
+            pos: *id011
+            r: 1.5
+            radius_rounded: 1.5
+            rot: *id012
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 'true'
+            pos: *id011
+            r: 1.5
+            radius: 1.5
+            radius_rounded: 1.5
+            rot: *id012
+            shape: cylinder
+            type: positive
+            width: 6
+      - - - depth: 79
+            h: 79
+            height: 6
+            inclusion: laser
+            pos: &id013
+            - -39.5
+            - 43.0
+            - 1.5
+            r: 1.5
+            radius_rounded: 1.5
+            rot: &id014
+            - 0
+            - 90
+            - 0
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 3dpr
+            pos: *id013
+            r: 1.5
+            radius_rounded: 1.5
+            rot: *id014
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 'true'
+            pos: *id013
+            r: 1.5
+            radius: 1.5
+            radius_rounded: 1.5
+            rot: *id014
+            shape: cylinder
+            type: positive
+            width: 6
+      - - - depth: 79
+            h: 79
+            height: 6
+            inclusion: laser
+            pos: &id015
+            - -39.5
+            - -43.0
+            - 1.5
+            r: 1.5
+            radius_rounded: 1.5
+            rot: &id016
+            - 0
+            - 90
+            - 0
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 3dpr
+            pos: *id015
+            r: 1.5
+            radius_rounded: 1.5
+            rot: *id016
+            shape: cylinder
+            type: positive
+            width: 6
+          - depth: 79
+            h: 79
+            height: 6
+            inclusion: 'true'
+            pos: *id015
+            r: 1.5
+            radius: 1.5
+            radius_rounded: 1.5
+            rot: *id016
+            shape: cylinder
+            type: positive
+            width: 6
+      - - - depth: 3.0
+            height: 6
+            id: 2.0
+            pos:
+            - -39.5
+            - -39.5
+            - 1.5
+            radius_rounded: 1.5
+            shape: oring
+            type: positive
+            width: 6
+      - - - depth: 3.0
+            height: 6
+            id: 2.0
+            pos:
+            - 39.5
+            - -39.5
+            - 1.5
+            radius_rounded: 1.5
+            shape: oring
+            type: positive
+            width: 6
+      - - - depth: 3.0
+            height: 6
+            id: 2.0
+            pos:
+            - 39.5
+            - 39.5
+            - 1.5
+            radius_rounded: 1.5
+            shape: oring
+            type: positive
+            width: 6
+      - - - depth: 3.0
+            height: 6
+            id: 2.0
+            pos:
+            - -39.5
+            - 39.5
+            - 1.5
+            radius_rounded: 1.5
+            shape: oring
+            type: positive
+            width: 6
+      - - - depth: 3.0
+            height: 6
+            id: 2.0
+            pos:
+            - -39.5
+            - -39.5
+            - 1.5
+            radius_rounded: 1.5
+            shape: oring
+            type: positive
+            width: 6
+      - - - depth: 3.0
+            height: 6
+            id: 2.0
+            pos:
+            - 39.5
+            - -39.5
+            - 1.5
+            radius_rounded: 1.5
+            shape: oring
+            type: positive
+            width: 6
+      - - - depth: 3.0
+            height: 6
+            id: 2.0
+            pos:
+            - 39.5
+            - 39.5
+            - 1.5
+            radius_rounded: 1.5
+            shape: oring
+            type: positive
+            width: 6
+      - - - depth: 3.0
+            height: 6
+            id: 2.0
+            pos:
+            - -39.5
+            - 39.5
+            - 1.5
+            radius_rounded: 1.5
+            shape: oring
+            type: positive
+            width: 6
+      - depth: 3.0
+        height: 6
+        id: 2.0
+        pos:
+        - -39.5
+        - -39.5
+        - 1.5
+        radius_rounded: 1.5
+        shape: oring
+        type: positive
+        width: 6
       pos:
       - 0
       - 0
       - 0
-      shape: rounded_rectangle
-      size:
-      - 89
-      - 89
-      - 3
-      type: positive
-      width: 6
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: positive
   - - - - inclusion: laser
           pos:
           - -37.5
@@ -4081,13 +4542,18 @@ thing:
     - 0
     - 0
     - 0
+    radius_rounded: 1.5
     run_action: true
     run_oomp: true
     run_oomp_populate: true
     run_scad: true
     run_svg: true
     save_type: all
-    shape: oobb_plate
+    shape: oobb_rounded_rectangle_rounded
+    size:
+    - 89
+    - 89
+    - 3
     typ: all
     type: positive
     width: 6
@@ -4120,7 +4586,7 @@ thing:
     type: p
     width: 6
   components_string:
-  - oobb_plate_shape_positive_type_3_depth_true_run_oomp_populate_true_run_oomp_true_run_action_true_run_scad_true_run_svg_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_6_height_basic_oobb_name_6_width_true_generate_dxf
+  - oobb_rounded_rectangle_rounded_shape_positive_type_3_depth_true_run_oomp_populate_true_run_oomp_true_run_action_true_run_scad_true_run_svg_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_6_height_basic_oobb_name_6_width_true_generate_dxf_1.5_radius_rounded_89_89_3_size
   - oobb_holes_shape_p_type_3_depth_true_run_oomp_populate_true_run_oomp_true_run_action_true_run_scad_true_run_svg_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_6_height_basic_oobb_name_6_width_true_generate_dxf_true_both_holes_all_holes
   depth: 3
   description: default basic 6x6x0

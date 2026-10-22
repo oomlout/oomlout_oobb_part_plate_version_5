@@ -145,15 +145,31 @@ def get_basic(thing, **kwargs):
 
     #add plate
     if True:
-        p3 = copy.deepcopy(kwargs)
-        p3["type"] = "positive"
-        p3["shape"] = f"oobb_plate"    
-        p3["depth"] = depth
-        #p3["holes"] = True         uncomment to include default holes
-        #p3["m"] = "#"
-        pos1 = copy.deepcopy(pos)         
-        p3["pos"] = pos1
-        oobb.append_full(thing,**p3)
+        if width == 1 and height == 1:
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "positive"
+            p3["shape"] = f"oobb_plate"    
+            p3["depth"] = depth
+            #p3["holes"] = True         uncomment to include default holes
+            #p3["m"] = "#"
+            pos1 = copy.deepcopy(pos)         
+            p3["pos"] = pos1
+            oobb.append_full(thing,**p3)
+        else:
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "positive"
+            p3["shape"] = f"oobb_rounded_rectangle_rounded"    
+            wid = (width *15)-1
+            hei = (height *15)-1
+            dep = depth
+            size = [wid, hei, dep]
+            p3["radius_rounded"] = 1.5
+            p3["size"] = size
+            #p3["holes"] = True         uncomment to include default holes
+            #p3["m"] = "#"
+            pos1 = copy.deepcopy(pos)         
+            p3["pos"] = pos1
+            oobb.append_full(thing,**p3)
     
     #add holes seperate
     if True:
