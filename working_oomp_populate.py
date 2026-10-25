@@ -18,6 +18,9 @@ def apply_taxonomy(option):
     option["taxonomy_7"] = f"{depth}_depth"
 
     option["oobb_details"] = {
+        "oobb_type": option.get("oobb_type", "plate"),
+        "run_scad": option.get("run_scad", True),
+        "run_solidcraft": option.get("run_solidcraft", True),
         "oobb_name": item_specific,
         "width": width,
         "height": height,

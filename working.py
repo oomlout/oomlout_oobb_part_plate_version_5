@@ -21,9 +21,21 @@ def main(**kwargs):
     #generate_stl = True
     kwargs["generate_stl"] = generate_stl
 
+    kwargs.setdefault("run_solidcraft", True)
+
     run(**kwargs)
 
 def run(**kwargs):
+
+    native = kwargs.pop("run_solidcraft", False)
+    native_context = dict(kwargs.pop("solidcraft_context", None) or {})
+    native_context["export_extras"] = kwargs.pop("export_extras", native_context.get("export_extras", False))
+    native_context["export_stl"] = kwargs.pop("export_stl", native_context.get("export_stl", False))
+    native_context["verify_solidcraft"] = kwargs.pop("verify_solidcraft", native_context.get("verify_solidcraft", False))
+    if native:
+        # OOMP also runs inside working_action. All materialization must finish
+        # before either CAD backend reads its working.yaml files.
+        kwargs["wait_for_completion"] = True
 
     if kwargs.get("run_oomp_populate", False):
         import working_oomp_populate
@@ -49,6 +61,10 @@ def run(**kwargs):
     if kwargs.get("run_action", False):
         import working_action
         working_action.main(**kwargs)    
+
+    if native:
+        import working_solidcraft
+        working_solidcraft.main(solidcraft_context=native_context)
 
 
 

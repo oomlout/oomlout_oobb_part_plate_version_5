@@ -47,18 +47,15 @@ kwargs:
   - 3dpr
   navigation: true
   oobb_name: basic
-  oomp_description_extra: 3_depth
-  oomp_description_main: basic_1_width_3_height
   oomp_mode: project
   oomp_run: true
   overwrite: true
   run_action: true
   run_oomp: true
   run_oomp_populate: true
-  run_scad: true
   run_svg: true
   typ: all
-  type: default_basic
+  wait_for_completion: true
   width: 1
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_basic_1_width_3_height_3_depth
 link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_basic_1_width_3_height_3_depth
@@ -83,6 +80,9 @@ oobb_details:
   depth: 3
   height: 3
   oobb_name: basic
+  oobb_type: plate
+  run_scad: true
+  run_solidcraft: true
   width: 1
 oobb_name: basic
 oomlout_ai_roboclick_1:
@@ -103,6 +103,9 @@ oomlout_ai_roboclick_1:
         depth: 3
         height: 3
         oobb_name: basic
+        oobb_type: plate
+        run_scad: true
+        run_solidcraft: true
         width: 1
       taxonomy_1: oobb
       taxonomy_10: ''
@@ -756,7 +759,8 @@ thing:
       - 0
       type: rotation
       typetype: positive
-  - - - - inclusion: laser
+  - - - - h: 3
+          inclusion: laser
           pos:
           - 0.0
           - -15.0
@@ -764,7 +768,8 @@ thing:
           r: 3.0
           shape: hole
           type: negative
-    - - - inclusion: laser
+    - - - h: 3
+          inclusion: laser
           pos:
           - 0.0
           - 0.0
@@ -772,7 +777,8 @@ thing:
           r: 3.0
           shape: hole
           type: negative
-    - - - inclusion: laser
+    - - - h: 3
+          inclusion: laser
           pos:
           - 0.0
           - 15.0
@@ -780,7 +786,8 @@ thing:
           r: 3.0
           shape: hole
           type: negative
-    - - - inclusion: 3dpr
+    - - - h: 3
+          inclusion: 3dpr
           pos:
           - 0.0
           - -15.0
@@ -788,7 +795,8 @@ thing:
           r: 3.25
           shape: hole
           type: negative
-    - - - inclusion: 3dpr
+    - - - h: 3
+          inclusion: 3dpr
           pos:
           - 0.0
           - 0.0
@@ -796,7 +804,8 @@ thing:
           r: 3.25
           shape: hole
           type: negative
-    - - - inclusion: 3dpr
+    - - - h: 3
+          inclusion: 3dpr
           pos:
           - 0.0
           - 15.0
@@ -804,7 +813,8 @@ thing:
           r: 3.25
           shape: hole
           type: negative
-    - - - inclusion: 'true'
+    - - - h: 3
+          inclusion: 'true'
           pos:
           - 0.0
           - -15.0
@@ -812,7 +822,8 @@ thing:
           r: 3.0
           shape: hole
           type: negative
-    - - - inclusion: 'true'
+    - - - h: 3
+          inclusion: 'true'
           pos:
           - 0.0
           - 0.0
@@ -820,7 +831,8 @@ thing:
           r: 3.0
           shape: hole
           type: negative
-    - - - inclusion: 'true'
+    - - - h: 3
+          inclusion: 'true'
           pos:
           - 0.0
           - 15.0
@@ -828,7 +840,8 @@ thing:
           r: 3.0
           shape: hole
           type: negative
-    - - - inclusion: laser
+    - - - h: 3
+          inclusion: laser
           pos:
           - 0.0
           - -15.0
@@ -836,7 +849,8 @@ thing:
           r: 1.5
           shape: hole
           type: negative
-    - - - inclusion: laser
+    - - - h: 3
+          inclusion: laser
           pos:
           - 0.0
           - -7.5
@@ -844,7 +858,8 @@ thing:
           r: 1.5
           shape: hole
           type: negative
-    - - - inclusion: laser
+    - - - h: 3
+          inclusion: laser
           pos:
           - 0.0
           - 0.0
@@ -852,7 +867,8 @@ thing:
           r: 1.5
           shape: hole
           type: negative
-    - - - inclusion: laser
+    - - - h: 3
+          inclusion: laser
           pos:
           - 0.0
           - 7.5
@@ -860,7 +876,8 @@ thing:
           r: 1.5
           shape: hole
           type: negative
-    - - - inclusion: laser
+    - - - h: 3
+          inclusion: laser
           pos:
           - 0.0
           - 15.0
@@ -868,7 +885,8 @@ thing:
           r: 1.5
           shape: hole
           type: negative
-    - - - inclusion: 3dpr
+    - - - h: 3
+          inclusion: 3dpr
           pos:
           - 0.0
           - -15.0
@@ -876,7 +894,8 @@ thing:
           r: 1.8
           shape: hole
           type: negative
-    - - - inclusion: 3dpr
+    - - - h: 3
+          inclusion: 3dpr
           pos:
           - 0.0
           - -7.5
@@ -884,7 +903,8 @@ thing:
           r: 1.8
           shape: hole
           type: negative
-    - - - inclusion: 3dpr
+    - - - h: 3
+          inclusion: 3dpr
           pos:
           - 0.0
           - 0.0
@@ -892,7 +912,8 @@ thing:
           r: 1.8
           shape: hole
           type: negative
-    - - - inclusion: 3dpr
+    - - - h: 3
+          inclusion: 3dpr
           pos:
           - 0.0
           - 7.5
@@ -900,7 +921,8 @@ thing:
           r: 1.8
           shape: hole
           type: negative
-    - - - inclusion: 3dpr
+    - - - h: 3
+          inclusion: 3dpr
           pos:
           - 0.0
           - 15.0
@@ -908,7 +930,8 @@ thing:
           r: 1.8
           shape: hole
           type: negative
-    - - - inclusion: 'true'
+    - - - h: 3
+          inclusion: 'true'
           pos:
           - 0.0
           - -15.0
@@ -916,7 +939,8 @@ thing:
           r: 1.5
           shape: hole
           type: negative
-    - - - inclusion: 'true'
+    - - - h: 3
+          inclusion: 'true'
           pos:
           - 0.0
           - -7.5
@@ -924,7 +948,8 @@ thing:
           r: 1.5
           shape: hole
           type: negative
-    - - - inclusion: 'true'
+    - - - h: 3
+          inclusion: 'true'
           pos:
           - 0.0
           - 0.0
@@ -932,7 +957,8 @@ thing:
           r: 1.5
           shape: hole
           type: negative
-    - - - inclusion: 'true'
+    - - - h: 3
+          inclusion: 'true'
           pos:
           - 0.0
           - 7.5
@@ -940,7 +966,8 @@ thing:
           r: 1.5
           shape: hole
           type: negative
-    - - - inclusion: 'true'
+    - - - h: 3
+          inclusion: 'true'
           pos:
           - 0.0
           - 15.0
@@ -969,7 +996,6 @@ thing:
     run_action: true
     run_oomp: true
     run_oomp_populate: true
-    run_scad: true
     run_svg: true
     save_type: all
     shape: oobb_rounded_rectangle_rounded
@@ -979,6 +1005,7 @@ thing:
     - 3
     typ: all
     type: positive
+    wait_for_completion: true
     width: 1
   - both_holes: true
     depth: 3
@@ -1001,16 +1028,16 @@ thing:
     run_action: true
     run_oomp: true
     run_oomp_populate: true
-    run_scad: true
     run_svg: true
     save_type: all
     shape: oobb_holes
     typ: all
     type: p
+    wait_for_completion: true
     width: 1
   components_string:
-  - oobb_rounded_rectangle_rounded_shape_positive_type_3_depth_true_run_oomp_populate_true_run_oomp_true_run_action_true_run_scad_true_run_svg_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_height_basic_oobb_name_1_width_true_generate_dxf_1.5_radius_rounded_14_44_3_size
-  - oobb_holes_shape_p_type_3_depth_true_run_oomp_populate_true_run_oomp_true_run_action_true_run_scad_true_run_svg_true_generate_stl_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_height_basic_oobb_name_1_width_true_generate_dxf_true_both_holes_all_holes
+  - oobb_rounded_rectangle_rounded_shape_positive_type_3_depth_true_run_oomp_populate_true_run_oomp_true_run_action_true_run_svg_true_generate_stl_true_wait_for_completion_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_height_basic_oobb_name_1_width_true_generate_dxf_1.5_radius_rounded_14_44_3_size
+  - oobb_holes_shape_p_type_3_depth_true_run_oomp_populate_true_run_oomp_true_run_action_true_run_svg_true_generate_stl_true_wait_for_completion_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_height_basic_oobb_name_1_width_true_generate_dxf_true_both_holes_all_holes
   depth: 3
   description: default basic 1x3x0
   description_extra: 3_depth
@@ -1034,19 +1061,16 @@ thing:
     - 3dpr
     navigation: true
     oobb_name: basic
-    oomp_description_extra: 3_depth
-    oomp_description_main: basic_1_width_3_height
     oomp_mode: project
     oomp_run: true
     overwrite: true
     run_action: true
     run_oomp: true
     run_oomp_populate: true
-    run_scad: true
     run_svg: true
     save_type: all
     typ: all
-    type: default_basic
+    wait_for_completion: true
     width: 1
   link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_basic_1_width_3_height_3_depth
   link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_basic_1_width_3_height_3_depth
@@ -1074,6 +1098,9 @@ thing:
     depth: 3
     height: 3
     oobb_name: basic
+    oobb_type: plate
+    run_scad: true
+    run_solidcraft: true
     width: 1
   oobb_name: basic
   oomlout_ai_roboclick_1:
@@ -1094,6 +1121,9 @@ thing:
           depth: 3
           height: 3
           oobb_name: basic
+          oobb_type: plate
+          run_scad: true
+          run_solidcraft: true
           width: 1
         taxonomy_1: oobb
         taxonomy_10: ''

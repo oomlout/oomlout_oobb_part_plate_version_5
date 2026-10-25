@@ -60,6 +60,9 @@ oobb_details:
     depth: 6
     height: 8
     oobb_name: basic
+    oobb_type: plate
+    run_scad: true
+    run_solidcraft: true
     width: 7
 oomlout_ai_roboclick_1:
     actions:
@@ -79,6 +82,9 @@ oomlout_ai_roboclick_1:
                 depth: 6
                 height: 8
                 oobb_name: basic
+                oobb_type: plate
+                run_scad: true
+                run_solidcraft: true
                 width: 7
             taxonomy_1: oobb
             taxonomy_10: ''

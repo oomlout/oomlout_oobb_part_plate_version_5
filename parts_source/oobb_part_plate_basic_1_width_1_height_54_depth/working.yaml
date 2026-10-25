@@ -5,6 +5,9 @@ oobb_details:
   depth: 54
   height: 1
   oobb_name: basic
+  oobb_type: plate
+  run_scad: true
+  run_solidcraft: true
   width: 1
 taxonomy_1: oobb
 taxonomy_10: ''
