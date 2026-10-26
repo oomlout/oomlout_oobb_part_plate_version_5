@@ -12,12 +12,8 @@ union() {
 						cylinder(h = 60, r = 7.0);
 					}
 					union() {
-						translate(v = [0, 0, -100]) {
-							cylinder(h = 200, r = 3.0);
-						}
-						translate(v = [0, 0, -100]) {
-							cylinder(h = 200, r = 1.5);
-						}
+						cylinder(h = 60, r = 3.0);
+						cylinder(h = 60, r = 1.5);
 					}
 				}
 			}
