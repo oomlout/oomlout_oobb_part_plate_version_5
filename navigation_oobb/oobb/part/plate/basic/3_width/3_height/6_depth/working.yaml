@@ -48,18 +48,15 @@ kwargs:
   - 3dpr
   navigation: true
   oobb_name: basic
-  oomp_description_extra: 6_depth
-  oomp_description_main: basic_3_width_3_height
   oomp_mode: project
   oomp_run: true
   overwrite: true
   run_action: true
   run_oomp: true
   run_oomp_populate: true
-  run_scad: true
   run_svg: true
   typ: all
-  type: default_basic
+  wait_for_completion: true
   width: 3
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_basic_3_width_3_height_6_depth
 link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_plate_basic_3_width_3_height_6_depth
@@ -84,6 +81,9 @@ oobb_details:
   depth: 6
   height: 3
   oobb_name: basic
+  oobb_type: plate
+  run_scad: true
+  run_solidcraft: true
   width: 3
 oobb_name: basic
 oomlout_ai_roboclick_1:
@@ -104,6 +104,9 @@ oomlout_ai_roboclick_1:
         depth: 6
         height: 3
         oobb_name: basic
+        oobb_type: plate
+        run_scad: true
+        run_solidcraft: true
         width: 3
       taxonomy_1: oobb
       taxonomy_10: ''
